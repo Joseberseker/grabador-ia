@@ -1,0 +1,26 @@
+{
+  "name": "chrome-screen-recorder",
+  "version": "0.6.0",
+  "private": true,
+  "description": "Extensión de Chrome (Manifest V3) para grabar pantalla en WebM y exportar a MP4, 100% local.",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test tests/",
+    "check": "npm run validate && npm test",
+    "build": "node scripts/build.mjs",
+    "package": "npm run build && node scripts/package.mjs",
+    "e2e": "npm run build && node scripts/e2e.mjs && node scripts/e2e-crash.mjs && node scripts/e2e-library.mjs && node scripts/e2e-transcription.mjs",
+    "vendor": "node scripts/vendor-deps.mjs",
+    "icons": "python3 scripts/generate-icons.py"
+  },
+  "devDependencies": {
+    "@huggingface/transformers": "4.3.1",
+    "@mediabunny/aac-encoder": "1.61.3",
+    "fake-indexeddb": "6.2.5",
+    "mediabunny": "1.61.3"
+  },
+  "engines": {
+    "node": ">=22.2"
+  }
+}
