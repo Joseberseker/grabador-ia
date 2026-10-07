@@ -1,0 +1,283 @@
+{
+  "variant": "A1-webcodecs-h264-aac",
+  "inputName": "input-10s-720p",
+  "inputMb": 2.015279,
+  "outputMb": 2.876508,
+  "convertS": 1.528,
+  "before": {
+    "label": "antes",
+    "t": 0,
+    "totalMb": 1085.82421875,
+    "extensionMb": 122.93359375,
+    "gpuMb": 80.046875,
+    "browserMb": 215.01171875,
+    "otherMb": 667.83203125,
+    "page": {
+      "decoded": 0,
+      "encoded": 0,
+      "closedFrames": 0,
+      "maxInFlight": 0,
+      "maxEncodeQueue": 0,
+      "maxDecodeQueue": 0,
+      "liveDecoders": 0,
+      "liveEncoders": 0,
+      "progress": 0,
+      "jsHeapMb": 1.8958768844604492
+    }
+  },
+  "peak": {
+    "t": 1.021,
+    "totalMb": 1203.59765625,
+    "extensionMb": 237.078125,
+    "gpuMb": 80.046875,
+    "browserMb": 218.640625,
+    "otherMb": 667.83203125,
+    "page": {
+      "decoded": 239,
+      "encoded": 213,
+      "closedFrames": 0,
+      "maxInFlight": 27,
+      "maxEncodeQueue": 4,
+      "maxDecodeQueue": 40,
+      "liveDecoders": 1,
+      "liveEncoders": 1,
+      "progress": 0.755439082278481,
+      "jsHeapMb": 12.237675666809082
+    }
+  },
+  "after": {
+    "label": "al terminar",
+    "t": 0,
+    "totalMb": 1138.2421875,
+    "extensionMb": 168.96875,
+    "gpuMb": 80.046875,
+    "browserMb": 221.39453125,
+    "otherMb": 667.83203125,
+    "page": {
+      "decoded": 301,
+      "encoded": 279,
+      "closedFrames": 0,
+      "maxInFlight": 31,
+      "maxEncodeQueue": 4,
+      "maxDecodeQueue": 40,
+      "liveDecoders": 0,
+      "liveEncoders": 0,
+      "progress": 1,
+      "jsHeapMb": 18.742584228515625
+    }
+  },
+  "after60": {
+    "label": "60 s después",
+    "t": 60,
+    "totalMb": 1134.8203125,
+    "extensionMb": 151.59375,
+    "gpuMb": 79.16015625,
+    "browserMb": 237.921875,
+    "otherMb": 666.14453125,
+    "page": {
+      "decoded": 301,
+      "encoded": 279,
+      "closedFrames": 0,
+      "maxInFlight": 31,
+      "maxEncodeQueue": 4,
+      "maxDecodeQueue": 40,
+      "liveDecoders": 0,
+      "liveEncoders": 0,
+      "progress": 1,
+      "jsHeapMb": 4.694592475891113
+    }
+  },
+  "released": {
+    "label": "tras soltar referencias + GC",
+    "t": 0,
+    "totalMb": 1127.5625,
+    "extensionMb": 148.57421875,
+    "gpuMb": 79.16015625,
+    "browserMb": 233.6796875,
+    "otherMb": 666.1484375,
+    "page": {
+      "decoded": 301,
+      "encoded": 279,
+      "closedFrames": 0,
+      "maxInFlight": 31,
+      "maxEncodeQueue": 4,
+      "maxDecodeQueue": 40,
+      "liveDecoders": 0,
+      "liveEncoders": 0,
+      "progress": 1,
+      "jsHeapMb": 4.7052507400512695
+    }
+  },
+  "series": [
+    {
+      "t": 0,
+      "totalMb": 1086.16796875,
+      "extensionMb": 123.27734375,
+      "gpuMb": 80.046875,
+      "browserMb": 215.01171875,
+      "otherMb": 667.83203125,
+      "page": {
+        "decoded": 0,
+        "encoded": 0,
+        "closedFrames": 0,
+        "maxInFlight": 0,
+        "maxEncodeQueue": 0,
+        "maxDecodeQueue": 0,
+        "liveDecoders": 0,
+        "liveEncoders": 0,
+        "progress": 0,
+        "jsHeapMb": 1.8958768844604492
+      }
+    },
+    {
+      "t": 0.514,
+      "totalMb": 1196.421875,
+      "extensionMb": 229.90234375,
+      "gpuMb": 80.046875,
+      "browserMb": 218.640625,
+      "otherMb": 667.83203125,
+      "page": {
+        "decoded": 108,
+        "encoded": 93,
+        "closedFrames": 0,
+        "maxInFlight": 24,
+        "maxEncodeQueue": 4,
+        "maxDecodeQueue": 40,
+        "liveDecoders": 1,
+        "liveEncoders": 1,
+        "progress": 0.32199367088607594,
+        "jsHeapMb": 9.197010040283203
+      }
+    },
+    {
+      "t": 1.021,
+      "totalMb": 1203.59765625,
+      "extensionMb": 237.078125,
+      "gpuMb": 80.046875,
+      "browserMb": 218.640625,
+      "otherMb": 667.83203125,
+      "page": {
+        "decoded": 239,
+        "encoded": 213,
+        "closedFrames": 0,
+        "maxInFlight": 27,
+        "maxEncodeQueue": 4,
+        "maxDecodeQueue": 40,
+        "liveDecoders": 1,
+        "liveEncoders": 1,
+        "progress": 0.755439082278481,
+        "jsHeapMb": 12.237675666809082
+      }
+    }
+  ],
+  "tail": [
+    {
+      "t": 5,
+      "totalMb": 1138.015625,
+      "extensionMb": 168.96875,
+      "gpuMb": 80.046875,
+      "browserMb": 221.39453125,
+      "otherMb": 667.60546875
+    },
+    {
+      "t": 10,
+      "totalMb": 1122.75,
+      "extensionMb": 153.62109375,
+      "gpuMb": 80.046875,
+      "browserMb": 221.3828125,
+      "otherMb": 667.69921875
+    },
+    {
+      "t": 15,
+      "totalMb": 1124.13671875,
+      "extensionMb": 152.38671875,
+      "gpuMb": 79.16015625,
+      "browserMb": 222.3828125,
+      "otherMb": 670.20703125
+    },
+    {
+      "t": 20,
+      "totalMb": 1119.76953125,
+      "extensionMb": 151.62890625,
+      "gpuMb": 79.16015625,
+      "browserMb": 220.5078125,
+      "otherMb": 668.47265625
+    },
+    {
+      "t": 25,
+      "totalMb": 1129.76953125,
+      "extensionMb": 151.62890625,
+      "gpuMb": 79.16015625,
+      "browserMb": 232.32421875,
+      "otherMb": 666.65625
+    },
+    {
+      "t": 30,
+      "totalMb": 1135.046875,
+      "extensionMb": 151.62890625,
+      "gpuMb": 79.16015625,
+      "browserMb": 236.921875,
+      "otherMb": 667.3359375
+    },
+    {
+      "t": 35,
+      "totalMb": 1135.80859375,
+      "extensionMb": 151.59375,
+      "gpuMb": 79.16015625,
+      "browserMb": 237.890625,
+      "otherMb": 667.1640625
+    },
+    {
+      "t": 40,
+      "totalMb": 1136.43359375,
+      "extensionMb": 151.59375,
+      "gpuMb": 79.16015625,
+      "browserMb": 238.1875,
+      "otherMb": 667.4921875
+    },
+    {
+      "t": 45,
+      "totalMb": 1134.921875,
+      "extensionMb": 151.59375,
+      "gpuMb": 79.16015625,
+      "browserMb": 237.984375,
+      "otherMb": 666.18359375
+    },
+    {
+      "t": 50,
+      "totalMb": 1138.87109375,
+      "extensionMb": 151.59375,
+      "gpuMb": 79.16015625,
+      "browserMb": 239.9609375,
+      "otherMb": 668.15625
+    },
+    {
+      "t": 55,
+      "totalMb": 1134.82421875,
+      "extensionMb": 151.59375,
+      "gpuMb": 79.16015625,
+      "browserMb": 237.921875,
+      "otherMb": 666.1484375
+    },
+    {
+      "t": 60,
+      "totalMb": 1134.8203125,
+      "extensionMb": 151.59375,
+      "gpuMb": 79.16015625,
+      "browserMb": 237.921875,
+      "otherMb": 666.14453125
+    }
+  ],
+  "codecs": {
+    "decoded": 239,
+    "encoded": 213,
+    "closedFrames": 0,
+    "maxInFlight": 27,
+    "maxEncodeQueue": 4,
+    "maxDecodeQueue": 40,
+    "liveDecoders": 1,
+    "liveEncoders": 1,
+    "progress": 0.755439082278481,
+    "jsHeapMb": 12.237675666809082
+  }
+}

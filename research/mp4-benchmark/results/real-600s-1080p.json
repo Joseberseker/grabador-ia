@@ -1,0 +1,2504 @@
+{
+  "label": "600s-1080p",
+  "seconds": 600,
+  "baselineMb": 1491,
+  "beforeStopMb": 1728,
+  "exportStartMb": 1580,
+  "peakMb": 1816,
+  "peakAt": 123.108,
+  "peakExtensionMb": 487,
+  "atEndMb": 1592,
+  "after60Mb": 1501,
+  "conversionS": 137.828,
+  "stats": {
+    "aacBackend": "wasm",
+    "audioBitrate": 128000,
+    "audioCodec": "aac",
+    "audioPrimingCompensationS": 0.021333333333333333,
+    "container": "mp4",
+    "convertedVideoFrames": 18000,
+    "durationS": 600,
+    "elapsedMs": 137926,
+    "encodedAudioPackets": 28129,
+    "encodedVideoPackets": 18000,
+    "estimatedBytes": 266459400,
+    "fastStart": "reserve",
+    "height": 992,
+    "inputFps": 30,
+    "inputVideoFrames": 18000,
+    "outputBytes": 255902477,
+    "videoBitrate": 3424792,
+    "videoCodec": "avc",
+    "width": 1918
+  },
+  "mp4": {
+    "file": "grabacion-2026-10-07_09-55-58.mp4",
+    "sizeMb": 255.902477,
+    "videoCodec": "avc",
+    "audioCodec": "aac",
+    "packets": 18000,
+    "fps": 29.9984332415509,
+    "bitrateMbps": 3.34859174971909,
+    "videoFirst": 0,
+    "audioFirst": -0.021333333333333333,
+    "width": 1918,
+    "height": 992
+  },
+  "series": [
+    {
+      "t": 0.011,
+      "status": "saving",
+      "totalMb": 1702.92578125,
+      "extensionMb": 318.453125,
+      "gpuMb": 146.98828125
+    },
+    {
+      "t": 0.533,
+      "status": "exporting",
+      "phase": "preparing",
+      "progress": 0,
+      "totalMb": 1579.9765625,
+      "extensionMb": 231.54296875,
+      "gpuMb": 127.21875
+    },
+    {
+      "t": 1.041,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0,
+      "totalMb": 1782.40625,
+      "extensionMb": 444.19921875,
+      "gpuMb": 112.66796875
+    },
+    {
+      "t": 1.552,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.0031766666666666666,
+      "totalMb": 1778.8125,
+      "extensionMb": 441.5390625,
+      "gpuMb": 111.828125
+    },
+    {
+      "t": 2.06,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.0072316666666666675,
+      "totalMb": 1781.7578125,
+      "extensionMb": 445.80859375,
+      "gpuMb": 111.8828125
+    },
+    {
+      "t": 2.569,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.01112,
+      "totalMb": 1788.78515625,
+      "extensionMb": 452.8359375,
+      "gpuMb": 111.8828125
+    },
+    {
+      "t": 3.077,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.015453333333333335,
+      "totalMb": 1795.72265625,
+      "extensionMb": 459.7734375,
+      "gpuMb": 111.8828125
+    },
+    {
+      "t": 3.588,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.019286666666666664,
+      "totalMb": 1782.2578125,
+      "extensionMb": 446.30078125,
+      "gpuMb": 111.8828125
+    },
+    {
+      "t": 4.095,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.023398333333333333,
+      "totalMb": 1787.0234375,
+      "extensionMb": 451.06640625,
+      "gpuMb": 111.8828125
+    },
+    {
+      "t": 4.606,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.027341666666666667,
+      "totalMb": 1794.16015625,
+      "extensionMb": 458.015625,
+      "gpuMb": 111.8828125
+    },
+    {
+      "t": 5.112,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.031286666666666664,
+      "totalMb": 1802.24609375,
+      "extensionMb": 465.79296875,
+      "gpuMb": 111.8828125
+    },
+    {
+      "t": 5.619,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.03512,
+      "totalMb": 1808.70703125,
+      "extensionMb": 476.30078125,
+      "gpuMb": 111.8359375
+    },
+    {
+      "t": 6.128,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.039286666666666664,
+      "totalMb": 1780.4375,
+      "extensionMb": 450.36328125,
+      "gpuMb": 109.50390625
+    },
+    {
+      "t": 6.635,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.042730000000000004,
+      "totalMb": 1786.76953125,
+      "extensionMb": 456.6953125,
+      "gpuMb": 109.50390625
+    },
+    {
+      "t": 7.143,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.04695166666666666,
+      "totalMb": 1793.30859375,
+      "extensionMb": 463.234375,
+      "gpuMb": 109.50390625
+    },
+    {
+      "t": 7.651,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.050785,
+      "totalMb": 1801.8515625,
+      "extensionMb": 471.76171875,
+      "gpuMb": 109.50390625
+    },
+    {
+      "t": 8.161,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.05475666666666667,
+      "totalMb": 1808.10546875,
+      "extensionMb": 478.56640625,
+      "gpuMb": 109.50390625
+    },
+    {
+      "t": 8.669,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.058451666666666666,
+      "totalMb": 1791.203125,
+      "extensionMb": 461.625,
+      "gpuMb": 109.515625
+    },
+    {
+      "t": 9.175,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.06256166666666667,
+      "totalMb": 1795.13671875,
+      "extensionMb": 465.55859375,
+      "gpuMb": 109.515625
+    },
+    {
+      "t": 9.683,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.06639500000000001,
+      "totalMb": 1782.99609375,
+      "extensionMb": 453.78515625,
+      "gpuMb": 109.5078125
+    },
+    {
+      "t": 10.194,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.07050666666666668,
+      "totalMb": 1789.88671875,
+      "extensionMb": 460.55859375,
+      "gpuMb": 109.5078125
+    },
+    {
+      "t": 10.705,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.07411666666666666,
+      "totalMb": 1796.69140625,
+      "extensionMb": 467.36328125,
+      "gpuMb": 109.5078125
+    },
+    {
+      "t": 11.212,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.07831166666666667,
+      "totalMb": 1755.16015625,
+      "extensionMb": 425.26953125,
+      "gpuMb": 109.5703125
+    },
+    {
+      "t": 11.719,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.08206166666666667,
+      "totalMb": 1759.046875,
+      "extensionMb": 429.15625,
+      "gpuMb": 109.5703125
+    },
+    {
+      "t": 12.229,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.085895,
+      "totalMb": 1743.4375,
+      "extensionMb": 413.640625,
+      "gpuMb": 109.5703125
+    },
+    {
+      "t": 12.738,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.089395,
+      "totalMb": 1747.55859375,
+      "extensionMb": 417.76171875,
+      "gpuMb": 109.5703125
+    },
+    {
+      "t": 13.246,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.09300499999999999,
+      "totalMb": 1752.73828125,
+      "extensionMb": 422.94140625,
+      "gpuMb": 109.5703125
+    },
+    {
+      "t": 13.754,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.09661666666666667,
+      "totalMb": 1739.02734375,
+      "extensionMb": 409.80859375,
+      "gpuMb": 109.546875
+    },
+    {
+      "t": 14.262,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.10045000000000001,
+      "totalMb": 1742.9765625,
+      "extensionMb": 413.734375,
+      "gpuMb": 109.546875
+    },
+    {
+      "t": 14.771,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.10322666666666666,
+      "totalMb": 1751.43359375,
+      "extensionMb": 422.1796875,
+      "gpuMb": 109.55859375
+    },
+    {
+      "t": 15.281,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.10695,
+      "totalMb": 1756.8984375,
+      "extensionMb": 427.171875,
+      "gpuMb": 109.55859375
+    },
+    {
+      "t": 15.79,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.11039333333333334,
+      "totalMb": 1763.828125,
+      "extensionMb": 434.1015625,
+      "gpuMb": 109.55859375
+    },
+    {
+      "t": 16.3,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.11431,
+      "totalMb": 1769.25,
+      "extensionMb": 439.5234375,
+      "gpuMb": 109.55859375
+    },
+    {
+      "t": 16.809,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.11772833333333334,
+      "totalMb": 1751.36328125,
+      "extensionMb": 421.5703125,
+      "gpuMb": 109.49609375
+    },
+    {
+      "t": 17.319,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.12164333333333334,
+      "totalMb": 1756.27734375,
+      "extensionMb": 426.48046875,
+      "gpuMb": 109.49609375
+    },
+    {
+      "t": 17.827,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.125005,
+      "totalMb": 1750.13671875,
+      "extensionMb": 420.84375,
+      "gpuMb": 109.484375
+    },
+    {
+      "t": 18.342,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.12878166666666668,
+      "totalMb": 1755.40234375,
+      "extensionMb": 426.07421875,
+      "gpuMb": 109.49609375
+    },
+    {
+      "t": 18.85,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.13206,
+      "totalMb": 1761.07421875,
+      "extensionMb": 431.74609375,
+      "gpuMb": 109.49609375
+    },
+    {
+      "t": 19.358,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.13589333333333334,
+      "totalMb": 1768.76171875,
+      "extensionMb": 439.48828125,
+      "gpuMb": 109.49609375
+    },
+    {
+      "t": 19.874,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.13906000000000002,
+      "totalMb": 1746.953125,
+      "extensionMb": 417.67578125,
+      "gpuMb": 109.49609375
+    },
+    {
+      "t": 20.385,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.14272666666666667,
+      "totalMb": 1752.26953125,
+      "extensionMb": 422.9921875,
+      "gpuMb": 109.49609375
+    },
+    {
+      "t": 20.892,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.14639166666666667,
+      "totalMb": 1757.99609375,
+      "extensionMb": 428.23046875,
+      "gpuMb": 109.49609375
+    },
+    {
+      "t": 21.4,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.15028166666666667,
+      "totalMb": 1766.390625,
+      "extensionMb": 436.75390625,
+      "gpuMb": 109.44140625
+    },
+    {
+      "t": 21.91,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.15375333333333333,
+      "totalMb": 1771.6796875,
+      "extensionMb": 442.58984375,
+      "gpuMb": 109.484375
+    },
+    {
+      "t": 22.422,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.15733666666666668,
+      "totalMb": 1778.36328125,
+      "extensionMb": 448.9921875,
+      "gpuMb": 109.546875
+    },
+    {
+      "t": 22.929,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.16092,
+      "totalMb": 1751.08984375,
+      "extensionMb": 421.4296875,
+      "gpuMb": 109.546875
+    },
+    {
+      "t": 23.436,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.16455833333333333,
+      "totalMb": 1755.39453125,
+      "extensionMb": 425.3125,
+      "gpuMb": 109.96875
+    },
+    {
+      "t": 23.946,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.16783666666666666,
+      "totalMb": 1764.0703125,
+      "extensionMb": 433.81640625,
+      "gpuMb": 109.96875
+    },
+    {
+      "t": 24.455,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.17144666666666666,
+      "totalMb": 1770.26953125,
+      "extensionMb": 440.015625,
+      "gpuMb": 109.96875
+    },
+    {
+      "t": 24.963,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.17528000000000002,
+      "totalMb": 1776.671875,
+      "extensionMb": 446.40625,
+      "gpuMb": 109.98046875
+    },
+    {
+      "t": 25.473,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.178725,
+      "totalMb": 1758.859375,
+      "extensionMb": 428.6484375,
+      "gpuMb": 109.92578125
+    },
+    {
+      "t": 25.982,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.18253,
+      "totalMb": 1761.8515625,
+      "extensionMb": 432.265625,
+      "gpuMb": 109.96875
+    },
+    {
+      "t": 26.49,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.185835,
+      "totalMb": 1769.71875,
+      "extensionMb": 440.24609375,
+      "gpuMb": 109.96875
+    },
+    {
+      "t": 27.004,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.18972333333333333,
+      "totalMb": 1761.68359375,
+      "extensionMb": 432.1796875,
+      "gpuMb": 109.96875
+    },
+    {
+      "t": 27.513,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.193335,
+      "totalMb": 1766.609375,
+      "extensionMb": 437.10546875,
+      "gpuMb": 109.96875
+    },
+    {
+      "t": 28.028,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.19716833333333333,
+      "totalMb": 1768.30078125,
+      "extensionMb": 439.27734375,
+      "gpuMb": 109.484375
+    },
+    {
+      "t": 28.541,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.20061166666666666,
+      "totalMb": 1777.47265625,
+      "extensionMb": 448.31640625,
+      "gpuMb": 109.484375
+    },
+    {
+      "t": 29.05,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.20458500000000002,
+      "totalMb": 1783.01953125,
+      "extensionMb": 453.86328125,
+      "gpuMb": 109.484375
+    },
+    {
+      "t": 29.559,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.20791833333333334,
+      "totalMb": 1759.12109375,
+      "extensionMb": 430.0078125,
+      "gpuMb": 109.44140625
+    },
+    {
+      "t": 30.065,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.211695,
+      "totalMb": 1763.83984375,
+      "extensionMb": 434.2421875,
+      "gpuMb": 109.484375
+    },
+    {
+      "t": 30.572,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.21514,
+      "totalMb": 1772.0234375,
+      "extensionMb": 442.4921875,
+      "gpuMb": 109.484375
+    },
+    {
+      "t": 31.079,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.21902833333333332,
+      "totalMb": 1744.890625,
+      "extensionMb": 415.359375,
+      "gpuMb": 109.484375
+    },
+    {
+      "t": 31.586,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.22236166666666668,
+      "totalMb": 1749.7578125,
+      "extensionMb": 420.2265625,
+      "gpuMb": 109.484375
+    },
+    {
+      "t": 32.095,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.22597333333333333,
+      "totalMb": 1755.21484375,
+      "extensionMb": 425.65625,
+      "gpuMb": 109.49609375
+    },
+    {
+      "t": 32.604,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.22936166666666666,
+      "totalMb": 1726.97265625,
+      "extensionMb": 397.4140625,
+      "gpuMb": 109.49609375
+    },
+    {
+      "t": 33.113,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.23324999999999999,
+      "totalMb": 1733.18359375,
+      "extensionMb": 403.68359375,
+      "gpuMb": 109.49609375
+    },
+    {
+      "t": 33.621,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.236695,
+      "totalMb": 1738.84375,
+      "extensionMb": 409.8828125,
+      "gpuMb": 109.484375
+    },
+    {
+      "t": 34.128,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.24080500000000002,
+      "totalMb": 1744.3203125,
+      "extensionMb": 415.3359375,
+      "gpuMb": 109.484375
+    },
+    {
+      "t": 34.636,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.24425166666666664,
+      "totalMb": 1750.05078125,
+      "extensionMb": 421.06640625,
+      "gpuMb": 109.484375
+    },
+    {
+      "t": 35.15,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.24802666666666667,
+      "totalMb": 1731.77734375,
+      "extensionMb": 402.79296875,
+      "gpuMb": 109.484375
+    },
+    {
+      "t": 35.662,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.2515266666666667,
+      "totalMb": 1738.10546875,
+      "extensionMb": 409.01953125,
+      "gpuMb": 109.484375
+    },
+    {
+      "t": 36.17,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.25513833333333336,
+      "totalMb": 1742.08203125,
+      "extensionMb": 412.953125,
+      "gpuMb": 109.49609375
+    },
+    {
+      "t": 36.677,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.25869333333333333,
+      "totalMb": 1727.5390625,
+      "extensionMb": 398.41015625,
+      "gpuMb": 109.49609375
+    },
+    {
+      "t": 37.185,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.2622483333333333,
+      "totalMb": 1732.6953125,
+      "extensionMb": 403.56640625,
+      "gpuMb": 109.49609375
+    },
+    {
+      "t": 37.691,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.26597,
+      "totalMb": 1740.68359375,
+      "extensionMb": 411.6875,
+      "gpuMb": 109.484375
+    },
+    {
+      "t": 38.199,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.26958166666666666,
+      "totalMb": 1746.3046875,
+      "extensionMb": 417.28515625,
+      "gpuMb": 109.484375
+    },
+    {
+      "t": 38.707,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.2730266666666667,
+      "totalMb": 1746.01171875,
+      "extensionMb": 416.9921875,
+      "gpuMb": 109.484375
+    },
+    {
+      "t": 39.217,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.27658166666666667,
+      "totalMb": 1726.3125,
+      "extensionMb": 397.29296875,
+      "gpuMb": 109.484375
+    },
+    {
+      "t": 39.726,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.2803033333333333,
+      "totalMb": 1729.26953125,
+      "extensionMb": 400.25,
+      "gpuMb": 109.484375
+    },
+    {
+      "t": 40.236,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.283915,
+      "totalMb": 1737.4921875,
+      "extensionMb": 408.50390625,
+      "gpuMb": 109.484375
+    },
+    {
+      "t": 40.745,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.28763666666666665,
+      "totalMb": 1727.6875,
+      "extensionMb": 398.65625,
+      "gpuMb": 109.49609375
+    },
+    {
+      "t": 41.254,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.29097,
+      "totalMb": 1732.265625,
+      "extensionMb": 403.23046875,
+      "gpuMb": 109.49609375
+    },
+    {
+      "t": 41.761,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.29485833333333333,
+      "totalMb": 1738.078125,
+      "extensionMb": 409.16796875,
+      "gpuMb": 109.4375
+    },
+    {
+      "t": 42.268,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.2983033333333333,
+      "totalMb": 1746.1953125,
+      "extensionMb": 417.08984375,
+      "gpuMb": 109.48046875
+    },
+    {
+      "t": 42.778,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.30208166666666664,
+      "totalMb": 1752.23828125,
+      "extensionMb": 423.12109375,
+      "gpuMb": 109.4921875
+    },
+    {
+      "t": 43.285,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.30558166666666664,
+      "totalMb": 1758.73828125,
+      "extensionMb": 429.62109375,
+      "gpuMb": 109.4921875
+    },
+    {
+      "t": 43.791,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.30936,
+      "totalMb": 1731.91796875,
+      "extensionMb": 402.80078125,
+      "gpuMb": 109.4921875
+    },
+    {
+      "t": 44.3,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.3128033333333333,
+      "totalMb": 1739.5703125,
+      "extensionMb": 410.5,
+      "gpuMb": 109.4921875
+    },
+    {
+      "t": 44.808,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.3167466666666667,
+      "totalMb": 1745.69140625,
+      "extensionMb": 416.55859375,
+      "gpuMb": 109.5546875
+    },
+    {
+      "t": 45.318,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.32030333333333333,
+      "totalMb": 1754.703125,
+      "extensionMb": 423.09765625,
+      "gpuMb": 109.5546875
+    },
+    {
+      "t": 45.825,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.32430166666666665,
+      "totalMb": 1758.7734375,
+      "extensionMb": 428.80859375,
+      "gpuMb": 109.91796875
+    },
+    {
+      "t": 46.332,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.3276383333333333,
+      "totalMb": 1765.0078125,
+      "extensionMb": 434.96875,
+      "gpuMb": 109.97265625
+    },
+    {
+      "t": 46.841,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.33158,
+      "totalMb": 1726.2890625,
+      "extensionMb": 396.30859375,
+      "gpuMb": 109.97265625
+    },
+    {
+      "t": 47.349,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.33513499999999996,
+      "totalMb": 1731.625,
+      "extensionMb": 401.64453125,
+      "gpuMb": 109.97265625
+    },
+    {
+      "t": 47.86,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.33913499999999996,
+      "totalMb": 1737.328125,
+      "extensionMb": 407.34765625,
+      "gpuMb": 109.97265625
+    },
+    {
+      "t": 48.369,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.34258,
+      "totalMb": 1742.921875,
+      "extensionMb": 412.94140625,
+      "gpuMb": 109.97265625
+    },
+    {
+      "t": 48.878,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.34663499999999997,
+      "totalMb": 1748.2421875,
+      "extensionMb": 418.26171875,
+      "gpuMb": 109.97265625
+    },
+    {
+      "t": 49.386,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.34974500000000003,
+      "totalMb": 1757.015625,
+      "extensionMb": 426.8671875,
+      "gpuMb": 109.97265625
+    },
+    {
+      "t": 49.893,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.3536916666666667,
+      "totalMb": 1763.3046875,
+      "extensionMb": 433.6484375,
+      "gpuMb": 109.9609375
+    },
+    {
+      "t": 50.4,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.35707833333333333,
+      "totalMb": 1771.5546875,
+      "extensionMb": 441.875,
+      "gpuMb": 109.9609375
+    },
+    {
+      "t": 50.907,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.3609666666666667,
+      "totalMb": 1778.39453125,
+      "extensionMb": 448.71484375,
+      "gpuMb": 109.9609375
+    },
+    {
+      "t": 51.414,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.36435833333333334,
+      "totalMb": 1738.49609375,
+      "extensionMb": 408.9765625,
+      "gpuMb": 109.9609375
+    },
+    {
+      "t": 51.923,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.36818999999999996,
+      "totalMb": 1742.03125,
+      "extensionMb": 412.51171875,
+      "gpuMb": 109.9609375
+    },
+    {
+      "t": 52.431,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.37185666666666667,
+      "totalMb": 1747.58203125,
+      "extensionMb": 417.609375,
+      "gpuMb": 109.9609375
+    },
+    {
+      "t": 52.941,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.37568833333333335,
+      "totalMb": 1753.77734375,
+      "extensionMb": 424.28515625,
+      "gpuMb": 109.48046875
+    },
+    {
+      "t": 53.454,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.379245,
+      "totalMb": 1762.4296875,
+      "extensionMb": 432.83203125,
+      "gpuMb": 109.48046875
+    },
+    {
+      "t": 53.967,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.38691,
+      "totalMb": 1768.58984375,
+      "extensionMb": 439.46875,
+      "gpuMb": 109.4921875
+    },
+    {
+      "t": 54.476,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.39079833333333336,
+      "totalMb": 1768.37890625,
+      "extensionMb": 439.22265625,
+      "gpuMb": 109.4921875
+    },
+    {
+      "t": 54.984,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.39402166666666666,
+      "totalMb": 1774.453125,
+      "extensionMb": 444.83984375,
+      "gpuMb": 109.4921875
+    },
+    {
+      "t": 55.495,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.3977983333333333,
+      "totalMb": 1781.8203125,
+      "extensionMb": 452.20703125,
+      "gpuMb": 109.4921875
+    },
+    {
+      "t": 56.003,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.4012983333333333,
+      "totalMb": 1734.24609375,
+      "extensionMb": 404.70703125,
+      "gpuMb": 109.4921875
+    },
+    {
+      "t": 56.513,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.4052983333333333,
+      "totalMb": 1740.30859375,
+      "extensionMb": 410.76953125,
+      "gpuMb": 109.4921875
+    },
+    {
+      "t": 57.021,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.4090216666666667,
+      "totalMb": 1745.890625,
+      "extensionMb": 416.3515625,
+      "gpuMb": 109.4921875
+    },
+    {
+      "t": 57.53,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.41257666666666665,
+      "totalMb": 1751.37109375,
+      "extensionMb": 421.84375,
+      "gpuMb": 109.48046875
+    },
+    {
+      "t": 58.037,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.4162983333333333,
+      "totalMb": 1759.40625,
+      "extensionMb": 430.4296875,
+      "gpuMb": 109.48046875
+    },
+    {
+      "t": 58.543,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.42018666666666665,
+      "totalMb": 1765.38671875,
+      "extensionMb": 436.41015625,
+      "gpuMb": 109.48046875
+    },
+    {
+      "t": 59.052,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.42018666666666665,
+      "totalMb": 1781.78125,
+      "extensionMb": 452.7265625,
+      "gpuMb": 109.48046875
+    },
+    {
+      "t": 59.562,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.42374333333333336,
+      "totalMb": 1777.83203125,
+      "extensionMb": 448.38671875,
+      "gpuMb": 109.48046875
+    },
+    {
+      "t": 60.07,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.43118666666666666,
+      "totalMb": 1784.51953125,
+      "extensionMb": 455.07421875,
+      "gpuMb": 109.48046875
+    },
+    {
+      "t": 60.577,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.43118666666666666,
+      "totalMb": 1793.04296875,
+      "extensionMb": 463.5,
+      "gpuMb": 109.48046875
+    },
+    {
+      "t": 61.089,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.43840833333333334,
+      "totalMb": 1800.984375,
+      "extensionMb": 471.44140625,
+      "gpuMb": 109.48046875
+    },
+    {
+      "t": 61.596,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.442075,
+      "totalMb": 1746.890625,
+      "extensionMb": 417.3515625,
+      "gpuMb": 109.4765625
+    },
+    {
+      "t": 62.103,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.4458533333333333,
+      "totalMb": 1750.3671875,
+      "extensionMb": 421.29296875,
+      "gpuMb": 109.48046875
+    },
+    {
+      "t": 62.613,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.4497416666666667,
+      "totalMb": 1751.265625,
+      "extensionMb": 422.2890625,
+      "gpuMb": 109.48046875
+    },
+    {
+      "t": 63.121,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.45349166666666674,
+      "totalMb": 1756.79296875,
+      "extensionMb": 427.81640625,
+      "gpuMb": 109.48046875
+    },
+    {
+      "t": 63.631,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.4571866666666667,
+      "totalMb": 1774.15625,
+      "extensionMb": 443.14453125,
+      "gpuMb": 109.484375
+    },
+    {
+      "t": 64.137,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.4607966666666667,
+      "totalMb": 1767.796875,
+      "extensionMb": 438.7890625,
+      "gpuMb": 109.48046875
+    },
+    {
+      "t": 64.645,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.46446333333333334,
+      "totalMb": 1775.953125,
+      "extensionMb": 446.84375,
+      "gpuMb": 109.48046875
+    },
+    {
+      "t": 65.154,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.468185,
+      "totalMb": 1782.38671875,
+      "extensionMb": 453.27734375,
+      "gpuMb": 109.48046875
+    },
+    {
+      "t": 65.662,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.47179666666666664,
+      "totalMb": 1788.06640625,
+      "extensionMb": 458.98828125,
+      "gpuMb": 109.48046875
+    },
+    {
+      "t": 66.169,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.47557333333333335,
+      "totalMb": 1795.19140625,
+      "extensionMb": 466.11328125,
+      "gpuMb": 109.48046875
+    },
+    {
+      "t": 66.678,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.479185,
+      "totalMb": 1801.77734375,
+      "extensionMb": 472.6953125,
+      "gpuMb": 109.48046875
+    },
+    {
+      "t": 67.186,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.48296333333333336,
+      "totalMb": 1748.5078125,
+      "extensionMb": 419.52734375,
+      "gpuMb": 109.48046875
+    },
+    {
+      "t": 67.697,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.4864633333333333,
+      "totalMb": 1752.6484375,
+      "extensionMb": 423.125,
+      "gpuMb": 109.48046875
+    },
+    {
+      "t": 68.206,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.490185,
+      "totalMb": 1759.6640625,
+      "extensionMb": 430.140625,
+      "gpuMb": 109.48046875
+    },
+    {
+      "t": 68.716,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.49363166666666664,
+      "totalMb": 1765.18359375,
+      "extensionMb": 435.64453125,
+      "gpuMb": 109.48046875
+    },
+    {
+      "t": 69.223,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.49746166666666664,
+      "totalMb": 1773.96875,
+      "extensionMb": 444.35546875,
+      "gpuMb": 109.48046875
+    },
+    {
+      "t": 69.73,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.500795,
+      "totalMb": 1779.06640625,
+      "extensionMb": 450.00390625,
+      "gpuMb": 109.48046875
+    },
+    {
+      "t": 70.239,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.5045166666666666,
+      "totalMb": 1778.1640625,
+      "extensionMb": 449.1015625,
+      "gpuMb": 109.48046875
+    },
+    {
+      "t": 70.747,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.5080166666666667,
+      "totalMb": 1783.703125,
+      "extensionMb": 454.640625,
+      "gpuMb": 109.48046875
+    },
+    {
+      "t": 71.254,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.511795,
+      "totalMb": 1745.390625,
+      "extensionMb": 416.328125,
+      "gpuMb": 109.48046875
+    },
+    {
+      "t": 71.762,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.5151833333333333,
+      "totalMb": 1750.67578125,
+      "extensionMb": 421.5390625,
+      "gpuMb": 109.48046875
+    },
+    {
+      "t": 72.271,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.5190716666666666,
+      "totalMb": 1756.671875,
+      "extensionMb": 427.5234375,
+      "gpuMb": 109.4921875
+    },
+    {
+      "t": 72.779,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.5225166666666666,
+      "totalMb": 1762.109375,
+      "extensionMb": 432.9609375,
+      "gpuMb": 109.4921875
+    },
+    {
+      "t": 73.286,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.5263483333333334,
+      "totalMb": 1768.8359375,
+      "extensionMb": 439.16015625,
+      "gpuMb": 109.5546875
+    },
+    {
+      "t": 73.795,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.5296266666666667,
+      "totalMb": 1775.83984375,
+      "extensionMb": 446.7890625,
+      "gpuMb": 109.54296875
+    },
+    {
+      "t": 74.304,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.5330716666666667,
+      "totalMb": 1781.83203125,
+      "extensionMb": 452.36328125,
+      "gpuMb": 109.9609375
+    },
+    {
+      "t": 74.813,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.536405,
+      "totalMb": 1787.421875,
+      "extensionMb": 457.953125,
+      "gpuMb": 109.9609375
+    },
+    {
+      "t": 75.322,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.5403483333333333,
+      "totalMb": 1794.109375,
+      "extensionMb": 464.62890625,
+      "gpuMb": 109.97265625
+    },
+    {
+      "t": 75.83,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.5438483333333334,
+      "totalMb": 1799.65625,
+      "extensionMb": 470.17578125,
+      "gpuMb": 109.97265625
+    },
+    {
+      "t": 76.338,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.547515,
+      "totalMb": 1756.1015625,
+      "extensionMb": 426.4609375,
+      "gpuMb": 110.03515625
+    },
+    {
+      "t": 76.847,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.5510149999999999,
+      "totalMb": 1759.8828125,
+      "extensionMb": 430.0546875,
+      "gpuMb": 110.22265625
+    },
+    {
+      "t": 77.354,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.5547366666666667,
+      "totalMb": 1765.72265625,
+      "extensionMb": 435.89453125,
+      "gpuMb": 110.22265625
+    },
+    {
+      "t": 77.862,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.5582916666666667,
+      "totalMb": 1771.828125,
+      "extensionMb": 442.02734375,
+      "gpuMb": 110.203125
+    },
+    {
+      "t": 78.369,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.5619033333333333,
+      "totalMb": 1773.42578125,
+      "extensionMb": 443.2578125,
+      "gpuMb": 110.203125
+    },
+    {
+      "t": 78.875,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.5656816666666666,
+      "totalMb": 1779.046875,
+      "extensionMb": 448.87890625,
+      "gpuMb": 110.203125
+    },
+    {
+      "t": 79.385,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.5694033333333334,
+      "totalMb": 1785.4140625,
+      "extensionMb": 455.24609375,
+      "gpuMb": 110.203125
+    },
+    {
+      "t": 79.894,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.5732366666666667,
+      "totalMb": 1790.5703125,
+      "extensionMb": 460.3671875,
+      "gpuMb": 110.203125
+    },
+    {
+      "t": 80.405,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.5769033333333333,
+      "totalMb": 1798.96875,
+      "extensionMb": 468.6875,
+      "gpuMb": 110.203125
+    },
+    {
+      "t": 80.914,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.58068,
+      "totalMb": 1805.02734375,
+      "extensionMb": 474.74609375,
+      "gpuMb": 110.203125
+    },
+    {
+      "t": 81.423,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.58407,
+      "totalMb": 1750.82421875,
+      "extensionMb": 421.0703125,
+      "gpuMb": 109.67578125
+    },
+    {
+      "t": 81.932,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.5879016666666667,
+      "totalMb": 1754.16015625,
+      "extensionMb": 425.06640625,
+      "gpuMb": 109.48046875
+    },
+    {
+      "t": 82.441,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.5915683333333333,
+      "totalMb": 1761.4921875,
+      "extensionMb": 431.7578125,
+      "gpuMb": 109.9609375
+    },
+    {
+      "t": 82.95,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.59529,
+      "totalMb": 1769.12109375,
+      "extensionMb": 439.296875,
+      "gpuMb": 109.9609375
+    },
+    {
+      "t": 83.459,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.5989016666666667,
+      "totalMb": 1775.11328125,
+      "extensionMb": 445.2890625,
+      "gpuMb": 109.9609375
+    },
+    {
+      "t": 83.968,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.602735,
+      "totalMb": 1780.0234375,
+      "extensionMb": 450.19921875,
+      "gpuMb": 109.9609375
+    },
+    {
+      "t": 84.476,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.6063466666666667,
+      "totalMb": 1786.875,
+      "extensionMb": 456.67578125,
+      "gpuMb": 109.9609375
+    },
+    {
+      "t": 84.983,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.6101233333333334,
+      "totalMb": 1795.109375,
+      "extensionMb": 464.9921875,
+      "gpuMb": 109.9609375
+    },
+    {
+      "t": 85.494,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.613735,
+      "totalMb": 1801.3984375,
+      "extensionMb": 471.29296875,
+      "gpuMb": 109.94921875
+    },
+    {
+      "t": 86.001,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.6175116666666667,
+      "totalMb": 1800.5859375,
+      "extensionMb": 471.0234375,
+      "gpuMb": 109.94921875
+    },
+    {
+      "t": 86.511,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.6209566666666667,
+      "totalMb": 1806.8203125,
+      "extensionMb": 477.2578125,
+      "gpuMb": 109.94921875
+    },
+    {
+      "t": 87.02,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.624845,
+      "totalMb": 1752.515625,
+      "extensionMb": 423.484375,
+      "gpuMb": 109.46875
+    },
+    {
+      "t": 87.529,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.6286233333333333,
+      "totalMb": 1759.08203125,
+      "extensionMb": 429.609375,
+      "gpuMb": 109.46875
+    },
+    {
+      "t": 88.037,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.6325116666666667,
+      "totalMb": 1763.0078125,
+      "extensionMb": 433.53515625,
+      "gpuMb": 109.46875
+    },
+    {
+      "t": 88.545,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.6360666666666667,
+      "totalMb": 1769.6640625,
+      "extensionMb": 440.19140625,
+      "gpuMb": 109.46875
+    },
+    {
+      "t": 89.054,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.6400116666666666,
+      "totalMb": 1775.515625,
+      "extensionMb": 446.04296875,
+      "gpuMb": 109.46875
+    },
+    {
+      "t": 89.56,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.6436783333333334,
+      "totalMb": 1784.46484375,
+      "extensionMb": 454.84765625,
+      "gpuMb": 109.46875
+    },
+    {
+      "t": 90.07,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.6476216666666667,
+      "totalMb": 1790.33984375,
+      "extensionMb": 461.10546875,
+      "gpuMb": 109.46875
+    },
+    {
+      "t": 90.579,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.6511783333333333,
+      "totalMb": 1796.96484375,
+      "extensionMb": 467.73046875,
+      "gpuMb": 109.46875
+    },
+    {
+      "t": 91.088,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.6551783333333334,
+      "totalMb": 1803.32421875,
+      "extensionMb": 474.08984375,
+      "gpuMb": 109.46875
+    },
+    {
+      "t": 91.595,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.6586766666666667,
+      "totalMb": 1811.44921875,
+      "extensionMb": 482.2578125,
+      "gpuMb": 109.48046875
+    },
+    {
+      "t": 92.103,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.6626216666666667,
+      "totalMb": 1815.31640625,
+      "extensionMb": 485.78125,
+      "gpuMb": 109.48046875
+    },
+    {
+      "t": 92.611,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.6661766666666668,
+      "totalMb": 1749.46484375,
+      "extensionMb": 419.8671875,
+      "gpuMb": 109.54296875
+    },
+    {
+      "t": 93.118,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.670065,
+      "totalMb": 1754.32421875,
+      "extensionMb": 424.3046875,
+      "gpuMb": 109.9609375
+    },
+    {
+      "t": 93.625,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.6736766666666667,
+      "totalMb": 1756.234375,
+      "extensionMb": 426.1484375,
+      "gpuMb": 109.94921875
+    },
+    {
+      "t": 94.134,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.67751,
+      "totalMb": 1761.3359375,
+      "extensionMb": 431.73046875,
+      "gpuMb": 109.94921875
+    },
+    {
+      "t": 94.643,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.6811216666666666,
+      "totalMb": 1768.17578125,
+      "extensionMb": 438.55859375,
+      "gpuMb": 109.9609375
+    },
+    {
+      "t": 95.151,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.68501,
+      "totalMb": 1773.6171875,
+      "extensionMb": 444,
+      "gpuMb": 109.9609375
+    },
+    {
+      "t": 95.658,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.68862,
+      "totalMb": 1782.03515625,
+      "extensionMb": 452.38671875,
+      "gpuMb": 109.9609375
+    },
+    {
+      "t": 96.168,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.6923433333333333,
+      "totalMb": 1788.3203125,
+      "extensionMb": 458.79296875,
+      "gpuMb": 109.9609375
+    },
+    {
+      "t": 96.676,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.696065,
+      "totalMb": 1794.2421875,
+      "extensionMb": 464.71484375,
+      "gpuMb": 109.9609375
+    },
+    {
+      "t": 97.184,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.6998416666666666,
+      "totalMb": 1799.93359375,
+      "extensionMb": 470.40625,
+      "gpuMb": 109.9609375
+    },
+    {
+      "t": 97.694,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.703565,
+      "totalMb": 1805.67578125,
+      "extensionMb": 476.64453125,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 98.202,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.7076816666666667,
+      "totalMb": 1748.55859375,
+      "extensionMb": 419.51953125,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 98.712,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.7111483333333334,
+      "totalMb": 1751.76953125,
+      "extensionMb": 422.73046875,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 99.218,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.7145633333333333,
+      "totalMb": 1754.88671875,
+      "extensionMb": 425.84765625,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 99.726,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.71823,
+      "totalMb": 1761.01171875,
+      "extensionMb": 431.9609375,
+      "gpuMb": 109.4765625
+    },
+    {
+      "t": 100.233,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.722175,
+      "totalMb": 1769.7890625,
+      "extensionMb": 440.63671875,
+      "gpuMb": 109.4765625
+    },
+    {
+      "t": 100.743,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.7258416666666666,
+      "totalMb": 1775.38671875,
+      "extensionMb": 445.796875,
+      "gpuMb": 109.4765625
+    },
+    {
+      "t": 101.249,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.729675,
+      "totalMb": 1781.71875,
+      "extensionMb": 452.12890625,
+      "gpuMb": 109.4765625
+    },
+    {
+      "t": 101.76,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.7332299999999999,
+      "totalMb": 1780.96484375,
+      "extensionMb": 451.859375,
+      "gpuMb": 109.4609375
+    },
+    {
+      "t": 102.269,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.73723,
+      "totalMb": 1742.98828125,
+      "extensionMb": 413.953125,
+      "gpuMb": 109.4609375
+    },
+    {
+      "t": 102.778,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.7406183333333333,
+      "totalMb": 1746.359375,
+      "extensionMb": 417.32421875,
+      "gpuMb": 109.4609375
+    },
+    {
+      "t": 103.284,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.7445633333333334,
+      "totalMb": 1751.45703125,
+      "extensionMb": 422.421875,
+      "gpuMb": 109.4609375
+    },
+    {
+      "t": 103.794,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.7481733333333334,
+      "totalMb": 1757.87890625,
+      "extensionMb": 428.78125,
+      "gpuMb": 109.5234375
+    },
+    {
+      "t": 104.302,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.7521183333333333,
+      "totalMb": 1763.7734375,
+      "extensionMb": 434.6640625,
+      "gpuMb": 109.53515625
+    },
+    {
+      "t": 104.81,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.755785,
+      "totalMb": 1772.8828125,
+      "extensionMb": 443.2109375,
+      "gpuMb": 109.95703125
+    },
+    {
+      "t": 105.317,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.7596733333333333,
+      "totalMb": 1779.42578125,
+      "extensionMb": 449.296875,
+      "gpuMb": 109.95703125
+    },
+    {
+      "t": 105.823,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.7631733333333334,
+      "totalMb": 1785.2578125,
+      "extensionMb": 455.625,
+      "gpuMb": 109.9453125
+    },
+    {
+      "t": 106.331,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.7671166666666667,
+      "totalMb": 1791.21484375,
+      "extensionMb": 461.58203125,
+      "gpuMb": 109.9453125
+    },
+    {
+      "t": 106.841,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.7707283333333333,
+      "totalMb": 1799.671875,
+      "extensionMb": 470.1484375,
+      "gpuMb": 109.9453125
+    },
+    {
+      "t": 107.35,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.7747283333333334,
+      "totalMb": 1751.5546875,
+      "extensionMb": 422.03125,
+      "gpuMb": 109.9453125
+    },
+    {
+      "t": 107.863,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.77834,
+      "totalMb": 1756.26953125,
+      "extensionMb": 426.74609375,
+      "gpuMb": 109.9453125
+    },
+    {
+      "t": 108.371,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.7823666666666667,
+      "totalMb": 1761.765625,
+      "extensionMb": 432.2421875,
+      "gpuMb": 109.9453125
+    },
+    {
+      "t": 108.879,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.7860616666666667,
+      "totalMb": 1767.0859375,
+      "extensionMb": 437.53125,
+      "gpuMb": 109.9453125
+    },
+    {
+      "t": 109.392,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.78945,
+      "totalMb": 1767.97265625,
+      "extensionMb": 438.8046875,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 109.899,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.7928383333333333,
+      "totalMb": 1773.69921875,
+      "extensionMb": 444.5625,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 110.406,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.7966716666666667,
+      "totalMb": 1780.16015625,
+      "extensionMb": 451.0234375,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 110.914,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.8002833333333333,
+      "totalMb": 1785.87109375,
+      "extensionMb": 456.734375,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 111.42,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.8043933333333334,
+      "totalMb": 1794.78125,
+      "extensionMb": 465.734375,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 111.932,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.80806,
+      "totalMb": 1800.71875,
+      "extensionMb": 471.671875,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 112.441,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.8119483333333333,
+      "totalMb": 1807.48828125,
+      "extensionMb": 478.30078125,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 112.947,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.8155600000000001,
+      "totalMb": 1747.99609375,
+      "extensionMb": 418.80859375,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 113.455,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.8195049999999999,
+      "totalMb": 1756.62109375,
+      "extensionMb": 427.40625,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 113.966,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.82317,
+      "totalMb": 1762.453125,
+      "extensionMb": 433.41015625,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 114.472,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.8271700000000001,
+      "totalMb": 1769.6171875,
+      "extensionMb": 440.57421875,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 114.979,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.830615,
+      "totalMb": 1774.8671875,
+      "extensionMb": 445.82421875,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 115.488,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.8347266666666667,
+      "totalMb": 1781.72265625,
+      "extensionMb": 452.6796875,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 115.998,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.8383366666666667,
+      "totalMb": 1789.96484375,
+      "extensionMb": 460.76953125,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 116.505,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.8421700000000001,
+      "totalMb": 1796.47265625,
+      "extensionMb": 467.27734375,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 117.012,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.8458366666666667,
+      "totalMb": 1796.47265625,
+      "extensionMb": 466.80859375,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 117.519,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.8498366666666667,
+      "totalMb": 1803.07421875,
+      "extensionMb": 473.41015625,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 118.026,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.8533916666666667,
+      "totalMb": 1751.65234375,
+      "extensionMb": 422.4921875,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 118.536,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.8573366666666667,
+      "totalMb": 1757.56640625,
+      "extensionMb": 428.0234375,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 119.045,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.8609466666666666,
+      "totalMb": 1762.296875,
+      "extensionMb": 432.75,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 119.553,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.8650583333333333,
+      "totalMb": 1767.73828125,
+      "extensionMb": 438.19140625,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 120.06,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.86878,
+      "totalMb": 1776.0078125,
+      "extensionMb": 446.546875,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 120.567,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.872725,
+      "totalMb": 1782.875,
+      "extensionMb": 453.4140625,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 121.076,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.8764466666666667,
+      "totalMb": 1788.09765625,
+      "extensionMb": 458.63671875,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 121.585,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.8804466666666667,
+      "totalMb": 1794.8359375,
+      "extensionMb": 465.375,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 122.092,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.8841966666666667,
+      "totalMb": 1800.25,
+      "extensionMb": 471.203125,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 122.6,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.8879466666666667,
+      "totalMb": 1809.22265625,
+      "extensionMb": 480.14453125,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 123.108,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.8917783333333333,
+      "totalMb": 1816.4296875,
+      "extensionMb": 486.90234375,
+      "gpuMb": 109.4765625
+    },
+    {
+      "t": 123.616,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.8955016666666668,
+      "totalMb": 1751.421875,
+      "extensionMb": 421.89453125,
+      "gpuMb": 109.4765625
+    },
+    {
+      "t": 124.124,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.8987233333333334,
+      "totalMb": 1754.13671875,
+      "extensionMb": 424.609375,
+      "gpuMb": 109.4765625
+    },
+    {
+      "t": 124.632,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.9025566666666667,
+      "totalMb": 1754.671875,
+      "extensionMb": 425.0078125,
+      "gpuMb": 109.4765625
+    },
+    {
+      "t": 125.139,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.9062233333333334,
+      "totalMb": 1759.046875,
+      "extensionMb": 429.3828125,
+      "gpuMb": 109.4765625
+    },
+    {
+      "t": 125.65,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.9100566666666666,
+      "totalMb": 1764.87109375,
+      "extensionMb": 435.7109375,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 126.16,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.9136399999999999,
+      "totalMb": 1770.48828125,
+      "extensionMb": 441.3046875,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 126.669,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.9173899999999999,
+      "totalMb": 1777.6796875,
+      "extensionMb": 448.49609375,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 127.176,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.9208333333333333,
+      "totalMb": 1785.9921875,
+      "extensionMb": 456.3515625,
+      "gpuMb": 109.4765625
+    },
+    {
+      "t": 127.685,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.9247783333333333,
+      "totalMb": 1792.5234375,
+      "extensionMb": 462.82421875,
+      "gpuMb": 109.4765625
+    },
+    {
+      "t": 128.193,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.9283333333333333,
+      "totalMb": 1798.25,
+      "extensionMb": 468.55078125,
+      "gpuMb": 109.4765625
+    },
+    {
+      "t": 128.7,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.9321666666666666,
+      "totalMb": 1804.65234375,
+      "extensionMb": 474.953125,
+      "gpuMb": 109.4765625
+    },
+    {
+      "t": 129.207,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.9357216666666667,
+      "totalMb": 1812.3671875,
+      "extensionMb": 482.76171875,
+      "gpuMb": 109.4765625
+    },
+    {
+      "t": 129.72,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.9396666666666665,
+      "totalMb": 1799.3125,
+      "extensionMb": 470.265625,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 130.227,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.9431666666666666,
+      "totalMb": 1803.86328125,
+      "extensionMb": 474.81640625,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 130.736,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.9470000000000001,
+      "totalMb": 1809.390625,
+      "extensionMb": 480.34375,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 131.244,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.9502766666666668,
+      "totalMb": 1815.94921875,
+      "extensionMb": 486.828125,
+      "gpuMb": 109.5390625
+    },
+    {
+      "t": 131.753,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.9541383333333332,
+      "totalMb": 1752.73046875,
+      "extensionMb": 423.4375,
+      "gpuMb": 109.5390625
+    },
+    {
+      "t": 132.261,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.9577216666666667,
+      "totalMb": 1748.26171875,
+      "extensionMb": 418.53125,
+      "gpuMb": 109.5390625
+    },
+    {
+      "t": 132.769,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.96161,
+      "totalMb": 1754.26953125,
+      "extensionMb": 424.5390625,
+      "gpuMb": 109.5390625
+    },
+    {
+      "t": 133.277,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.96522,
+      "totalMb": 1758.17578125,
+      "extensionMb": 428.4453125,
+      "gpuMb": 109.5390625
+    },
+    {
+      "t": 133.785,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.969165,
+      "totalMb": 1764.66015625,
+      "extensionMb": 437.62890625,
+      "gpuMb": 109.53125
+    },
+    {
+      "t": 134.295,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.9727199999999999,
+      "totalMb": 1770.21484375,
+      "extensionMb": 443.1875,
+      "gpuMb": 109.52734375
+    },
+    {
+      "t": 134.804,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.9764983333333334,
+      "totalMb": 1776.70703125,
+      "extensionMb": 449.6796875,
+      "gpuMb": 109.52734375
+    },
+    {
+      "t": 135.312,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.9798316666666667,
+      "totalMb": 1782.13671875,
+      "extensionMb": 455.109375,
+      "gpuMb": 109.52734375
+    },
+    {
+      "t": 135.82,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.9840533333333333,
+      "totalMb": 1789.53125,
+      "extensionMb": 462.47265625,
+      "gpuMb": 109.52734375
+    },
+    {
+      "t": 136.328,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.9876633333333332,
+      "totalMb": 1795.796875,
+      "extensionMb": 468.55078125,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 136.838,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.99,
+      "totalMb": 1802.67578125,
+      "extensionMb": 475.22265625,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 137.344,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.99,
+      "totalMb": 1808.12890625,
+      "extensionMb": 480.67578125,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 137.851,
+      "status": "exporting",
+      "phase": "converting",
+      "progress": 0.99,
+      "totalMb": 1709.19140625,
+      "extensionMb": 382.2265625,
+      "gpuMb": 109.46484375
+    },
+    {
+      "t": 138.357,
+      "status": "finished",
+      "phase": "downloading",
+      "progress": 1,
+      "totalMb": 1591.515625,
+      "extensionMb": 262.81640625,
+      "gpuMb": 109.99609375
+    }
+  ]
+}

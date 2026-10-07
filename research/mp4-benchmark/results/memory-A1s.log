@@ -1,0 +1,14 @@
+
+input-180s-1080p · A1s-webcodecs-h264-aac-opfs
+  entrada 59.1 MB → salida 79.4 MB en 33.6 s
+  RAM total   antes 1085 MB · pico 1410 MB (+325) a los 30.0 s · al terminar 1182 MB (+97) · 60 s después 1144 MB (+59) · tras soltar+GC 1141 MB (+56)
+  renderer extensión: antes 122 · pico 423 · 60 s 151 · soltar+GC 154 MB | GPU pico 81 MB
+  paquetes de vídeo: entrada 5294 (29.4 fps) → salida 4891 (27.2 fps) · duración 179.79 → 179.79 s
+  fotogramas: decodificados 5295 · codificados 4892 · abiertos máx 29 (al final 0) · decod−cod máx 411 · cola encoder máx 4 · cola decoder máx 40 · heap JS 49 MB
+
+input-600s-1080p · A1s-webcodecs-h264-aac-opfs
+  entrada 200.7 MB → salida 268.6 MB en 117.3 s
+  RAM total   antes 1088 MB · pico 1457 MB (+369) a los 93.9 s · al terminar 1225 MB (+137) · 60 s después 1150 MB (+62) · tras soltar+GC 1148 MB (+60)
+  renderer extensión: antes 123 · pico 449 · 60 s 153 · soltar+GC 156 MB | GPU pico 81 MB
+  paquetes de vídeo: entrada 17906 (29.8 fps) → salida 16562 (27.6 fps) · duración 600.06 → 600.06 s
+  fotogramas: decodificados 17900 · codificados 16550 · abiertos máx 30 (al final 10) · decod−cod máx 1352 · cola encoder máx 4 · cola decoder máx 40 · heap JS 54 MB

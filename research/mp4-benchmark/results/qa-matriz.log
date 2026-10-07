@@ -1,0 +1,22 @@
+[m720-30-auto] 1280×662 pedido 30 fps → WebM 602 fot. 30.1 fps · MP4 602 fot. 30 fps avc1.640c1f · 1.52 Mbps · conv 2.876 s · RAM base 1708 pico 1589 fin 1512 +60s null
+   (34 s)
+[m720-60-auto] 1280×662 pedido 60 fps → WebM 1204 fot. 60.1 fps · MP4 1204 fot. 60 fps avc1.640c20 · 3.23 Mbps · conv 4.037 s · RAM base 1690 pico 1620 fin 1548 +60s null
+   (35 s)
+[m1080-30-auto] 1918×992 pedido 30 fps → WebM 602 fot. 30.1 fps · MP4 602 fot. 30 fps avc1.640c28 · 3.3 Mbps · conv 4.755 s · RAM base 1707 pico 1745 fin 1538 +60s null
+   (36 s)
+[m1080-30-high] 1918×992 pedido 30 fps → WebM 600 fot. 30 fps · MP4 600 fot. 29.9 fps avc1.640c28 · 3.78 Mbps · conv 5.261 s · RAM base 1696 pico 1764 fin 1505 +60s null
+   (37 s)
+[m1080-30-max] 1920×992 pedido 30 fps → WebM 598 fot. 29.9 fps · MP4 598 fot. 29.9 fps avc1.640c28 · 3.79 Mbps · conv 5.562 s · RAM base 1689 pico 1749 fin 1499 +60s null
+   (37 s)
+[m1080-60-auto] 1918×992 pedido 60 fps → WebM 905 fot. 45.1 fps · MP4 905 fot. 45 fps avc1.640c2a · 4.83 Mbps · conv 7.815 s · RAM base 1706 pico 1743 fin 1495 +60s null · AVISO: Pediste 60 fps, pero la captura entregó ~45 fps (Chrome solo
+   (40 s)
+[m1080-60-max] 1918×992 pedido 60 fps → WebM 971 fot. 48.5 fps · MP4 971 fot. 48.4 fps avc1.640c2a · 4.74 Mbps · conv 7.406 s · RAM base 1695 pico 1770 fin 1504 +60s null · AVISO: Pediste 60 fps, pero la captura entregó ~49 fps (Chrome solo
+   (39 s)
+[m720-30-auto] sync WebM→MP4: inicio 63.9→63.9 · 60 s —→— · final 64.4→64.4 ms (20 pares) · MP4 ftyp moov free mdat · seek true · audio true
+[m720-60-auto] sync WebM→MP4: inicio 92.1→92.1 · 60 s —→— · final 92.7→92.7 ms (20 pares) · MP4 ftyp moov free mdat · seek true · audio true
+[m1080-30-auto] sync WebM→MP4: inicio 75.4→75.4 · 60 s —→— · final 59.7→59.7 ms (20 pares) · MP4 ftyp moov free mdat · seek true · audio true
+[m1080-30-high] sync WebM→MP4: inicio 64.8→64.8 · 60 s —→— · final 65.6→65.6 ms (20 pares) · MP4 ftyp moov free mdat · seek true · audio true
+[m1080-30-max] sync WebM→MP4: inicio 68.9→68.9 · 60 s —→— · final 67.9→67.9 ms (20 pares) · MP4 ftyp moov free mdat · seek true · audio true
+[m1080-60-auto] sync WebM→MP4: inicio 70.2→70.2 · 60 s —→— · final 66.5→66.5 ms (20 pares) · MP4 ftyp moov free mdat · seek true · audio true
+[m1080-60-max] sync WebM→MP4: inicio 71.0→71.0 · 60 s —→— · final 64.2→64.2 ms (20 pares) · MP4 ftyp moov free mdat · seek true · audio true
+✓ /home/jose-ahumada/personal-projects/chrome-screen-recorder}/research/mp4-benchmark/results/qa-matriz.json

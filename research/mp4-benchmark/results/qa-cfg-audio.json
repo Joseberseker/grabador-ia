@@ -1,0 +1,1 @@
+[{"label":"a-none","seconds":20,"window":[1920,1080],"fps":30,"tabAudio":false},{"label":"a-mic","seconds":20,"window":[1920,1080],"fps":30,"tabAudio":false,"mic":true},{"label":"a-tab-mic","seconds":20,"window":[1920,1080],"fps":30,"tabAudio":true,"mic":true},{"label":"s-screen-mic","seconds":20,"window":[1920,1080],"fps":30,"tabAudio":true,"mic":true,"screen":true}]

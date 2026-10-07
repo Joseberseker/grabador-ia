@@ -1,0 +1,590 @@
+{
+  "runs": {
+    "input-10s-720p__A1-webcodecs-h264-aac": {
+      "inputSize": 2015279,
+      "outputSize": 2877303,
+      "convertMs": 1308.9899999983609,
+      "notes": [
+        "AAC: WebCodecs no lo soporta → codificador WASM (@mediabunny/aac-encoder)"
+      ],
+      "progressReported": 1,
+      "resources": {
+        "wallMs": 1322.4311779999998,
+        "cpuMs": 3900,
+        "peakRssMb": 1395.0078125,
+        "rssDeltaMb": 122.375,
+        "peakExtensionRendererMb": 432.72265625,
+        "extensionRendererDeltaMb": 118.88671875
+      },
+      "analysis": {
+        "boxes": {
+          "order": "ftyp moov mdat",
+          "fragmented": false,
+          "faststart": true
+        },
+        "playback": {
+          "playable": true,
+          "duration": 10.112,
+          "seeked": true,
+          "width": 1278,
+          "height": 632,
+          "framesIn1s": 24
+        },
+        "audio": {
+          "decodable": true,
+          "duration": 10.112,
+          "channels": 1
+        },
+        "marks": {
+          "container": "MP4",
+          "videoCodec": "avc",
+          "audioCodec": "aac",
+          "duration": 10.112,
+          "flashes": 10,
+          "beeps": 10,
+          "avOffsetMedianMs": 113.20833333333336,
+          "avOffsetSpreadMs": 35.44791666666748
+        },
+        "inputAvOffsetMedianMs": 91.87499999999993,
+        "psnrDb": 64.36710217464034
+      }
+    },
+    "input-10s-720p__A2-webcodecs-h264-opus": {
+      "inputSize": 2015279,
+      "outputSize": 2953176,
+      "convertMs": 1235.144999999553,
+      "notes": [],
+      "progressReported": 1,
+      "resources": {
+        "wallMs": 1242.438248999999,
+        "cpuMs": 3040,
+        "peakRssMb": 1371.9609375,
+        "rssDeltaMb": 97.4140625,
+        "peakExtensionRendererMb": 408.66796875,
+        "extensionRendererDeltaMb": 94.8125
+      },
+      "analysis": {
+        "boxes": {
+          "order": "ftyp moov mdat",
+          "fragmented": false,
+          "faststart": true
+        },
+        "playback": {
+          "playable": true,
+          "duration": 10.02,
+          "seeked": true,
+          "width": 1278,
+          "height": 632,
+          "framesIn1s": 25
+        },
+        "audio": {
+          "decodable": true,
+          "duration": 10.08,
+          "channels": 1
+        },
+        "marks": {
+          "container": "MP4",
+          "videoCodec": "avc",
+          "audioCodec": "opus",
+          "duration": 10.02,
+          "flashes": 10,
+          "beeps": 10,
+          "avOffsetMedianMs": 91.87499999999993,
+          "avOffsetSpreadMs": 35.44791666666747
+        },
+        "inputAvOffsetMedianMs": 91.87499999999993,
+        "psnrDb": 69.42697916711765
+      }
+    },
+    "input-10s-720p__A3-remux-vp9-opus": {
+      "inputSize": 2015279,
+      "outputSize": 2016639,
+      "convertMs": 36.90500000119209,
+      "notes": [],
+      "progressReported": 1,
+      "resources": {
+        "wallMs": 49.91897400000016,
+        "cpuMs": 80,
+        "peakRssMb": 1276.4140625,
+        "rssDeltaMb": 0,
+        "peakExtensionRendererMb": 312.828125,
+        "extensionRendererDeltaMb": 0
+      },
+      "analysis": {
+        "boxes": {
+          "order": "ftyp moov mdat",
+          "fragmented": false,
+          "faststart": true
+        },
+        "playback": {
+          "playable": true,
+          "duration": 10.02,
+          "seeked": true,
+          "width": 1278,
+          "height": 632,
+          "framesIn1s": 26
+        },
+        "audio": {
+          "decodable": true,
+          "duration": 10.08,
+          "channels": 1
+        },
+        "marks": {
+          "container": "MP4",
+          "videoCodec": "vp9",
+          "audioCodec": "opus",
+          "duration": 10.02,
+          "flashes": 10,
+          "beeps": 10,
+          "avOffsetMedianMs": 91.87499999999993,
+          "avOffsetSpreadMs": 35.44791666666747
+        },
+        "inputAvOffsetMedianMs": 91.87499999999993,
+        "psnrDb": 99
+      }
+    },
+    "input-10s-720p__B1-ffmpeg-wasm-st": {
+      "inputSize": 2015279,
+      "outputSize": 645526,
+      "convertMs": 18206,
+      "notes": [
+        "carga del core: 108 ms"
+      ],
+      "progressReported": 1,
+      "resources": {
+        "wallMs": 18212.60278,
+        "cpuMs": 20640,
+        "peakRssMb": 1668.40234375,
+        "rssDeltaMb": 388.8828125,
+        "peakExtensionRendererMb": 692.95703125,
+        "extensionRendererDeltaMb": 377.48828125
+      },
+      "analysis": {
+        "boxes": {
+          "order": "ftyp moov free mdat",
+          "fragmented": false,
+          "faststart": true
+        },
+        "playback": {
+          "playable": true,
+          "duration": 10.08,
+          "seeked": true,
+          "width": 1278,
+          "height": 632,
+          "framesIn1s": 27
+        },
+        "audio": {
+          "decodable": true,
+          "duration": 10.08,
+          "channels": 1
+        },
+        "marks": {
+          "container": "MP4",
+          "videoCodec": "avc",
+          "audioCodec": "aac",
+          "duration": 10.08,
+          "flashes": 10,
+          "beeps": 10,
+          "avOffsetMedianMs": 91.87500000000004,
+          "avOffsetSpreadMs": 35.4583333333327
+        },
+        "inputAvOffsetMedianMs": 91.87499999999993,
+        "psnrDb": 66.59805742148023
+      }
+    },
+    "input-10s-720p__B2-ffmpeg-wasm-mt": {
+      "inputSize": 2015279,
+      "outputSize": 650653,
+      "convertMs": 7984.10000000149,
+      "notes": [
+        "carga del core: 305 ms"
+      ],
+      "progressReported": 1,
+      "resources": {
+        "wallMs": 7997.180490000006,
+        "cpuMs": 30270,
+        "peakRssMb": 1928.6953125,
+        "rssDeltaMb": 651.81640625,
+        "peakExtensionRendererMb": 946.13671875,
+        "extensionRendererDeltaMb": 632
+      },
+      "analysis": {
+        "boxes": {
+          "order": "ftyp moov free mdat",
+          "fragmented": false,
+          "faststart": true
+        },
+        "playback": {
+          "playable": true,
+          "duration": 10.08,
+          "seeked": true,
+          "width": 1278,
+          "height": 632,
+          "framesIn1s": 28
+        },
+        "audio": {
+          "decodable": true,
+          "duration": 10.08,
+          "channels": 1
+        },
+        "marks": {
+          "container": "MP4",
+          "videoCodec": "avc",
+          "audioCodec": "aac",
+          "duration": 10.08,
+          "flashes": 10,
+          "beeps": 10,
+          "avOffsetMedianMs": 91.87500000000004,
+          "avOffsetSpreadMs": 35.4583333333327
+        },
+        "inputAvOffsetMedianMs": 91.87499999999993,
+        "psnrDb": 66.60827282129183
+      }
+    },
+    "input-10s-720p__C-mediarecorder-mp4": {
+      "inputSize": 2015279,
+      "outputSize": 3184771,
+      "convertMs": 10206.625,
+      "notes": [
+        "tiempo real: dura lo mismo que el vídeo"
+      ],
+      "progressReported": null,
+      "resources": {
+        "wallMs": 10214.171881000002,
+        "cpuMs": 7400,
+        "peakRssMb": 1651.6640625,
+        "rssDeltaMb": 377.52734375,
+        "peakExtensionRendererMb": 585.3515625,
+        "extensionRendererDeltaMb": 270.98046875
+      },
+      "analysis": {
+        "boxes": {
+          "order": "ftyp moov moof mdat moof mdat moof mdat",
+          "fragmented": true,
+          "faststart": true
+        },
+        "playback": {
+          "playable": true,
+          "duration": 10.1332,
+          "seeked": true,
+          "width": 1278,
+          "height": 632,
+          "framesIn1s": 29
+        },
+        "audio": {
+          "decodable": true,
+          "duration": 10.06,
+          "channels": 1
+        },
+        "marks": {
+          "container": "MP4",
+          "videoCodec": "avc",
+          "audioCodec": "opus",
+          "duration": 10.1332,
+          "flashes": 10,
+          "beeps": 10,
+          "avOffsetMedianMs": -52.32083333333337,
+          "avOffsetSpreadMs": 43.30833333333395
+        },
+        "inputAvOffsetMedianMs": 91.87499999999993,
+        "psnrDb": 15.935315456267197
+      }
+    },
+    "input-60s-1080p__A1-webcodecs-h264-aac": {
+      "inputSize": 19185842,
+      "outputSize": 26125842,
+      "convertMs": 12747.629999998957,
+      "notes": [
+        "AAC: WebCodecs no lo soporta → codificador WASM (@mediabunny/aac-encoder)"
+      ],
+      "progressReported": 1,
+      "resources": {
+        "wallMs": 12784.619955000002,
+        "cpuMs": 49820,
+        "peakRssMb": 1854.98046875,
+        "rssDeltaMb": 578.3828125,
+        "peakExtensionRendererMb": 876.8671875,
+        "extensionRendererDeltaMb": 564.640625
+      },
+      "analysis": {
+        "boxes": {
+          "order": "ftyp moov mdat",
+          "fragmented": false,
+          "faststart": true
+        },
+        "playback": {
+          "playable": true,
+          "duration": 60.192,
+          "seeked": true,
+          "width": 1918,
+          "height": 992,
+          "framesIn1s": 29
+        },
+        "audio": {
+          "decodable": true,
+          "duration": 60.16,
+          "channels": 1
+        },
+        "marks": {
+          "container": "MP4",
+          "videoCodec": "avc",
+          "audioCodec": "aac",
+          "duration": 60.192,
+          "flashes": 60,
+          "beeps": 61,
+          "avOffsetMedianMs": 118.53819444444369,
+          "avOffsetSpreadMs": 83.96180555555333
+        },
+        "inputAvOffsetMedianMs": 97.43749999999807,
+        "psnrDb": 68.85372900985827
+      }
+    },
+    "input-60s-1080p__A2-webcodecs-h264-opus": {
+      "inputSize": 19185842,
+      "outputSize": 26654894,
+      "convertMs": 16012.25,
+      "notes": [],
+      "progressReported": 1,
+      "resources": {
+        "wallMs": 16075.122403999994,
+        "cpuMs": 56080,
+        "peakRssMb": 1804.0234375,
+        "rssDeltaMb": 533.28515625,
+        "peakExtensionRendererMb": 831.0234375,
+        "extensionRendererDeltaMb": 520.17578125
+      },
+      "analysis": {
+        "boxes": {
+          "order": "ftyp moov mdat",
+          "fragmented": false,
+          "faststart": true
+        },
+        "playback": {
+          "playable": true,
+          "duration": 60.128003,
+          "seeked": true,
+          "width": 1918,
+          "height": 992,
+          "framesIn1s": 28
+        },
+        "audio": {
+          "decodable": true,
+          "duration": 60.028,
+          "channels": 1
+        },
+        "marks": {
+          "container": "MP4",
+          "videoCodec": "avc",
+          "audioCodec": "opus",
+          "duration": 60.128003472222225,
+          "flashes": 60,
+          "beeps": 60,
+          "avOffsetMedianMs": 97.20486111110915,
+          "avOffsetSpreadMs": 83.96180555555688
+        },
+        "inputAvOffsetMedianMs": 97.43749999999807,
+        "psnrDb": 68.04785207952216
+      }
+    },
+    "input-60s-1080p__A3-remux-vp9-opus": {
+      "inputSize": 19185842,
+      "outputSize": 19190673,
+      "convertMs": 111.3099999986589,
+      "notes": [],
+      "progressReported": 1,
+      "resources": {
+        "wallMs": 148.34302800003206,
+        "cpuMs": 260,
+        "peakRssMb": 1339.35546875,
+        "rssDeltaMb": 62.47265625,
+        "peakExtensionRendererMb": 369.80078125,
+        "extensionRendererDeltaMb": 54.80859375
+      },
+      "analysis": {
+        "boxes": {
+          "order": "ftyp moov mdat",
+          "fragmented": false,
+          "faststart": true
+        },
+        "playback": {
+          "playable": true,
+          "duration": 60.128003,
+          "seeked": true,
+          "width": 1918,
+          "height": 992,
+          "framesIn1s": 29
+        },
+        "audio": {
+          "decodable": true,
+          "duration": 60.028,
+          "channels": 1
+        },
+        "marks": {
+          "container": "MP4",
+          "videoCodec": "vp9",
+          "audioCodec": "opus",
+          "duration": 60.128003472222225,
+          "flashes": 60,
+          "beeps": 60,
+          "avOffsetMedianMs": 97.43402777777632,
+          "avOffsetSpreadMs": 83.96180555555688
+        },
+        "inputAvOffsetMedianMs": 97.43749999999807,
+        "psnrDb": 99
+      }
+    },
+    "input-60s-1080p__B1-ffmpeg-wasm-st": {
+      "inputSize": 19185842,
+      "outputSize": 4424076,
+      "convertMs": 263958.0300000012,
+      "notes": [
+        "carga del core: 137 ms"
+      ],
+      "progressReported": 1,
+      "resources": {
+        "wallMs": 263998.70392600005,
+        "cpuMs": 268280,
+        "peakRssMb": 1802.48828125,
+        "rssDeltaMb": 524.31640625,
+        "peakExtensionRendererMb": 782.89453125,
+        "extensionRendererDeltaMb": 468.31640625
+      },
+      "analysis": {
+        "boxes": {
+          "order": "ftyp moov free mdat",
+          "fragmented": false,
+          "faststart": true
+        },
+        "playback": {
+          "playable": true,
+          "duration": 60.161333,
+          "seeked": true,
+          "width": 1918,
+          "height": 992,
+          "framesIn1s": 29
+        },
+        "audio": {
+          "decodable": true,
+          "duration": 60.141333333333336,
+          "channels": 1
+        },
+        "marks": {
+          "container": "MP4",
+          "videoCodec": "avc",
+          "audioCodec": "aac",
+          "duration": 60.16133333333333,
+          "flashes": 60,
+          "beeps": 61,
+          "avOffsetMedianMs": 96.77083333333414,
+          "avOffsetSpreadMs": 83.95833333333158
+        },
+        "inputAvOffsetMedianMs": 97.43749999999807,
+        "psnrDb": 71.11808713160632
+      }
+    },
+    "input-60s-1080p__B2-ffmpeg-wasm-mt": {
+      "inputSize": 19185842,
+      "outputSize": 4426856,
+      "convertMs": 141430.11499999836,
+      "notes": [
+        "carga del core: 327 ms"
+      ],
+      "progressReported": 1,
+      "resources": {
+        "wallMs": 141479.75926899991,
+        "cpuMs": 469120,
+        "peakRssMb": 2153.0625,
+        "rssDeltaMb": 878.4375,
+        "peakExtensionRendererMb": 1120.1171875,
+        "extensionRendererDeltaMb": 808.50390625
+      },
+      "analysis": {
+        "boxes": {
+          "order": "ftyp moov free mdat",
+          "fragmented": false,
+          "faststart": true
+        },
+        "playback": {
+          "playable": true,
+          "duration": 60.161333,
+          "seeked": true,
+          "width": 1918,
+          "height": 992,
+          "framesIn1s": 28
+        },
+        "audio": {
+          "decodable": true,
+          "duration": 60.141333333333336,
+          "channels": 1
+        },
+        "marks": {
+          "container": "MP4",
+          "videoCodec": "avc",
+          "audioCodec": "aac",
+          "duration": 60.16133333333333,
+          "flashes": 60,
+          "beeps": 61,
+          "avOffsetMedianMs": 96.77083333333414,
+          "avOffsetSpreadMs": 83.95833333333158
+        },
+        "inputAvOffsetMedianMs": 97.43749999999807,
+        "psnrDb": 71.11808713160632
+      }
+    }
+  },
+  "inputs": {
+    "input-10s-720p": {
+      "size": 2015279,
+      "playback": {
+        "playable": true,
+        "duration": 10.112,
+        "seeked": true,
+        "width": 1278,
+        "height": 632,
+        "framesIn1s": 27
+      },
+      "marks": {
+        "container": "WebM",
+        "videoCodec": "vp9",
+        "audioCodec": "opus",
+        "duration": 10.02,
+        "flashes": 10,
+        "beeps": 10,
+        "avOffsetMedianMs": 91.87499999999993,
+        "avOffsetSpreadMs": 35.458333333333584
+      }
+    },
+    "input-60s-1080p": {
+      "size": 19185842,
+      "playback": {
+        "playable": true,
+        "duration": 60.169,
+        "seeked": true,
+        "width": 1918,
+        "height": 992,
+        "framesIn1s": 29
+      },
+      "marks": {
+        "container": "WebM",
+        "videoCodec": "vp9",
+        "audioCodec": "opus",
+        "duration": 60.128,
+        "flashes": 60,
+        "beeps": 60,
+        "avOffsetMedianMs": 97.43749999999807,
+        "avOffsetSpreadMs": 83.95833333333336
+      }
+    }
+  },
+  "environment": {
+    "date": "2026-10-06T21:45:13.874Z",
+    "chrome": "Google Chrome 155 (headless=new), Linux x86_64, sin aceleración de vídeo por hardware",
+    "cpu": "11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz × 8"
+  },
+  "csp": {
+    "blobWorker": "permitido",
+    "webcodecsAac": false,
+    "webcodecsAvc": true,
+    "crossOriginIsolated": true
+  }
+}

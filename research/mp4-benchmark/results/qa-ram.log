@@ -1,0 +1,13 @@
+[r1080-30-1min] 1918×992 pedido 30 fps → WebM 1799 fot. 30 fps · MP4 1799 fot. 30 fps avc1.640c28 · 3.31 Mbps · conv 15 s · RAM base 1707 pico 1776 fin 1535 +60s 1484
+   (147 s)
+[r1080-60-1min] 1920×992 pedido 60 fps → WebM 3119 fot. 52 fps · MP4 3119 fot. 52 fps avc1.640c2a · 5.21 Mbps · conv 24.787 s · RAM base 1708 pico 1788 fin 1530 +60s 1485
+   (157 s)
+[r1080-30-10min] 1920×992 pedido 30 fps → WebM 17980 fot. 30 fps · MP4 17980 fot. 30 fps avc1.640c28 · 3.32 Mbps · conv 147.67 s · RAM base 1484 pico 1823 fin 1579 +60s 1504
+   (833 s)
+[r1080-60-10min] 1918×992 pedido 60 fps → WebM 32307 fot. 53.8 fps · MP4 32307 fot. 53.8 fps avc1.640c2a · 5.36 Mbps · conv 209.578 s · RAM base 1499 pico 1836 fin 1600 +60s 1507
+   (895 s)
+[r1080-30-1min] sync WebM→MP4: inicio 61.8→61.8 · 60 s 55.3→55.3 · final 54.3→54.3 ms (60 pares) · MP4 ftyp moov free mdat · seek true · audio true
+[r1080-60-1min] sync WebM→MP4: inicio 70.3→70.3 · 60 s 57.7→57.7 · final 63.5→63.5 ms (60 pares) · MP4 ftyp moov free mdat · seek true · audio true
+[r1080-30-10min] sync WebM→MP4: inicio 80.6→80.6 · 60 s 80.9→80.9 · final 112.5→112.4 ms (600 pares) · MP4 ftyp moov free mdat · seek true · audio true
+[r1080-60-10min] sync WebM→MP4: inicio 69.9→69.9 · 60 s 77.7→77.7 · final 60.5→60.5 ms (600 pares) · MP4 ftyp moov free mdat · seek true · audio true
+✓ /home/jose-ahumada/personal-projects/chrome-screen-recorder}/research/mp4-benchmark/results/qa-ram.json

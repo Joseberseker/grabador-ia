@@ -1,0 +1,122 @@
+[
+  {
+    "input": "input-10s-720p",
+    "bpp": 0.04,
+    "targetMbps": 0.969235,
+    "realVideoMbps": 0.9384319361277447,
+    "sizeMb": 1.335706,
+    "mbPerMin": 7.998239520958085,
+    "psnr": 73.1755122336233,
+    "seconds": 1.787
+  },
+  {
+    "input": "input-10s-720p",
+    "bpp": 0.06,
+    "targetMbps": 1.453853,
+    "realVideoMbps": 1.4238219560878245,
+    "sizeMb": 1.943657,
+    "mbPerMin": 11.638664670658684,
+    "psnr": 73.1755122336233,
+    "seconds": 1.305
+  },
+  {
+    "input": "input-10s-720p",
+    "bpp": 0.09,
+    "targetMbps": 2.180779,
+    "realVideoMbps": 2.1195409181636724,
+    "sizeMb": 2.815045,
+    "mbPerMin": 16.856556886227548,
+    "psnr": 77.71915327194075,
+    "seconds": 1.391
+  },
+  {
+    "input": "input-10s-720p",
+    "bpp": 0.14,
+    "targetMbps": 3.392323,
+    "realVideoMbps": 2.6513325349301398,
+    "sizeMb": 3.481114,
+    "mbPerMin": 20.84499401197605,
+    "psnr": 74.4248995997063,
+    "seconds": 1.368
+  },
+  {
+    "input": "input-30s-1080p-text",
+    "bpp": 0.04,
+    "targetMbps": 2.283187,
+    "realVideoMbps": 2.179899846840248,
+    "sizeMb": 8.664433,
+    "mbPerMin": 17.309248851301863,
+    "psnr": 37.80312325938057,
+    "seconds": 6.436
+  },
+  {
+    "input": "input-30s-1080p-text",
+    "bpp": 0.06,
+    "targetMbps": 3.424781,
+    "realVideoMbps": 3.288983951521609,
+    "sizeMb": 12.828212,
+    "mbPerMin": 25.62737963641207,
+    "psnr": 41.584591322782394,
+    "seconds": 7.227
+  },
+  {
+    "input": "input-30s-1080p-text",
+    "bpp": 0.09,
+    "targetMbps": 5.137171,
+    "realVideoMbps": 4.9564850502763536,
+    "sizeMb": 19.088428,
+    "mbPerMin": 38.13363787707266,
+    "psnr": 41.61046925561568,
+    "seconds": 8.129
+  },
+  {
+    "input": "input-30s-1080p-text",
+    "bpp": 0.14,
+    "targetMbps": 7.991155,
+    "realVideoMbps": 6.815439302124259,
+    "sizeMb": 26.067407,
+    "mbPerMin": 52.075794765931946,
+    "psnr": 41.73014794808903,
+    "seconds": 7.964
+  },
+  {
+    "input": "input-60s-1080p",
+    "bpp": 0.04,
+    "targetMbps": 2.283187,
+    "realVideoMbps": 2.162356572645024,
+    "sizeMb": 17.21432,
+    "mbPerMin": 17.17767429483768,
+    "psnr": 61.216445836301375,
+    "seconds": 14.11
+  },
+  {
+    "input": "input-60s-1080p",
+    "bpp": 0.06,
+    "targetMbps": 3.424781,
+    "realVideoMbps": 3.1436150878126665,
+    "sizeMb": 24.589459,
+    "mbPerMin": 24.537113158594998,
+    "psnr": 67.50045165430285,
+    "seconds": 14.257
+  },
+  {
+    "input": "input-60s-1080p",
+    "bpp": 0.09,
+    "targetMbps": 5.137171,
+    "realVideoMbps": 3.5927682277807347,
+    "sizeMb": 27.965294,
+    "mbPerMin": 27.90576170835551,
+    "psnr": 69.74304076784472,
+    "seconds": 13.998
+  },
+  {
+    "input": "input-60s-1080p",
+    "bpp": 0.14,
+    "targetMbps": 7.991155,
+    "realVideoMbps": 3.6126833422032996,
+    "sizeMb": 28.114976,
+    "mbPerMin": 28.055125066524745,
+    "psnr": 68.57906103871171,
+    "seconds": 13.386
+  }
+]

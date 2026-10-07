@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "MP4 benchmark (Fase 4A, aislado)",
+  "version": "0.0.1",
+  "description": "Prototipo de investigación. No forma parte de la extensión de producción.",
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+  },
+  "cross_origin_embedder_policy": { "value": "require-corp" },
+  "cross_origin_opener_policy": { "value": "same-origin" }
+}

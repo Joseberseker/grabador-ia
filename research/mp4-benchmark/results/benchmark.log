@@ -1,0 +1,21 @@
+— Comprobación de CSP (MV3)
+   {"blobWorker":"permitido","webcodecsAac":false,"webcodecsAvc":true,"crossOriginIsolated":true}
+
+— Entrada input-10s-720p
+   2.0 MB · vp9/opus · 10.02 s · A/V 92 ms
+   A1-webcodecs-h264-aac       1.3 s ·   2.9 MB · RAM pico +122 MB · CPU 3.9 s · avc/aac · dur 10.11 s · seek ✓ · A/V 113 ms (entrada 92) · PSNR 64.4 dB
+   A2-webcodecs-h264-opus      1.2 s ·   3.0 MB · RAM pico +97 MB · CPU 3.0 s · avc/opus · dur 10.02 s · seek ✓ · A/V 92 ms (entrada 92) · PSNR 69.4 dB
+   A3-remux-vp9-opus           0.0 s ·   2.0 MB · RAM pico +0 MB · CPU 0.1 s · vp9/opus · dur 10.02 s · seek ✓ · A/V 92 ms (entrada 92) · PSNR 99.0 dB
+   B1-ffmpeg-wasm-st          18.2 s ·   0.6 MB · RAM pico +389 MB · CPU 20.6 s · avc/aac · dur 10.08 s · seek ✓ · A/V 92 ms (entrada 92) · PSNR 66.6 dB
+   B2-ffmpeg-wasm-mt           8.0 s ·   0.7 MB · RAM pico +652 MB · CPU 30.3 s · avc/aac · dur 10.08 s · seek ✓ · A/V 92 ms (entrada 92) · PSNR 66.6 dB
+   C-mediarecorder-mp4        10.2 s ·   3.2 MB · RAM pico +378 MB · CPU 7.4 s · avc/opus · dur 10.13 s · seek ✓ · A/V -52 ms (entrada 92) · PSNR 15.9 dB
+
+— Entrada input-60s-1080p
+   19.2 MB · vp9/opus · 60.13 s · A/V 97 ms
+   A1-webcodecs-h264-aac      12.7 s ·  26.1 MB · RAM pico +578 MB · CPU 49.8 s · avc/aac · dur 60.19 s · seek ✓ · A/V 119 ms (entrada 97) · PSNR 68.9 dB
+   A2-webcodecs-h264-opus     16.0 s ·  26.7 MB · RAM pico +533 MB · CPU 56.1 s · avc/opus · dur 60.13 s · seek ✓ · A/V 97 ms (entrada 97) · PSNR 68.0 dB
+   A3-remux-vp9-opus           0.1 s ·  19.2 MB · RAM pico +62 MB · CPU 0.3 s · vp9/opus · dur 60.13 s · seek ✓ · A/V 97 ms (entrada 97) · PSNR 99.0 dB
+   B1-ffmpeg-wasm-st         264.0 s ·   4.4 MB · RAM pico +524 MB · CPU 268.3 s · avc/aac · dur 60.16 s · seek ✓ · A/V 97 ms (entrada 97) · PSNR 71.1 dB
+   B2-ffmpeg-wasm-mt         141.4 s ·   4.4 MB · RAM pico +878 MB · CPU 469.1 s · avc/aac · dur 60.16 s · seek ✓ · A/V 97 ms (entrada 97) · PSNR 71.1 dB
+
+✓ /home/jose-ahumada/personal-projects/chrome-screen-recorder}/research/mp4-benchmark/results/results.json

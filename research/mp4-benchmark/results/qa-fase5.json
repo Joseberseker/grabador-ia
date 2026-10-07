@@ -1,0 +1,117 @@
+{
+  "f5-1080-30-1min": {
+    "cfg": {
+      "label": "f5-1080-30-1min",
+      "seconds": 60,
+      "window": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "after60": true
+    },
+    "captured": {
+      "width": 1918,
+      "height": 992,
+      "fps": 30,
+      "audio": {
+        "mic": "off",
+        "plan": "tab",
+        "tab": "on"
+      },
+      "notice": null
+    },
+    "ram": {
+      "baseline": 1709,
+      "exportStart": 1780,
+      "peak": 1797,
+      "atEnd": 1542,
+      "after60": 1500
+    },
+    "conversionS": 13.548,
+    "stats": {
+      "aacBackend": "wasm",
+      "audioBitrate": 128000,
+      "audioCodec": "aac",
+      "audioPrimingCompensationS": 0.021333333333333333,
+      "container": "mp4",
+      "convertedVideoFrames": 1801,
+      "durationS": 60.015,
+      "elapsedMs": 13548,
+      "encodedAudioPackets": 2817,
+      "encodedVideoPackets": 1801,
+      "estimatedBytes": 26652519,
+      "fastStart": "reserve",
+      "height": 992,
+      "inputFps": 30,
+      "inputVideoFrames": 1801,
+      "outputBytes": 25377835,
+      "targetFps": 30,
+      "videoBitrate": 3424781,
+      "videoCodec": "avc",
+      "videoCodecString": "avc1.640c28",
+      "width": 1918
+    },
+    "note": null,
+    "webm": {
+      "size": 12885403,
+      "videoCodec": "vp09.00.40.08",
+      "audioCodec": "opus",
+      "audioChannels": 1,
+      "frames": 1801,
+      "fps": 30,
+      "videoMbps": 1.59,
+      "videoDuration": 59.997,
+      "audioDuration": 60.015,
+      "width": 1918,
+      "height": 992
+    },
+    "mp4": {
+      "size": 25377835,
+      "videoCodec": "avc1.640c28",
+      "audioCodec": "mp4a.40.2",
+      "audioChannels": 1,
+      "frames": 1801,
+      "fps": 30,
+      "videoMbps": 3.3,
+      "videoDuration": 60.0303125,
+      "audioDuration": 60.089666666666666,
+      "width": 1918,
+      "height": 992
+    },
+    "analysis": {
+      "webm": {
+        "boxes": "B",
+        "faststart": false,
+        "playable": true,
+        "duration": 60.057,
+        "seeked": true,
+        "audio": true,
+        "sync": {
+          "median": 368.60416666666396,
+          "spread": 22.770833333328937,
+          "start": 369.4374999999999,
+          "at60s": 370.104166666664,
+          "end": 369.2083333333329,
+          "pairs": 59
+        }
+      },
+      "mp4": {
+        "boxes": "ftyp moov free mdat",
+        "faststart": true,
+        "playable": true,
+        "duration": 60.089667,
+        "seeked": true,
+        "audio": true,
+        "sync": {
+          "median": 368.61111111111455,
+          "spread": 22.77430555556134,
+          "start": 369.4305555555557,
+          "at60s": 370.1111111111146,
+          "end": 369.2152777777764,
+          "pairs": 59
+        }
+      }
+    }
+  }
+}

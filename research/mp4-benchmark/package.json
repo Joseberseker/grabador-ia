@@ -1,0 +1,17 @@
+{
+  "name": "mp4-benchmark",
+  "private": true,
+  "description": "Fase 4A: prototipo AISLADO para comparar WebM→MP4 (no forma parte de la extensión).",
+  "type": "module",
+  "scripts": {
+    "bench": "node run-benchmark.mjs"
+  },
+  "dependencies": {
+    "@ffmpeg/core": "^0.12.10",
+    "@ffmpeg/core-mt": "^0.12.10",
+    "@ffmpeg/ffmpeg": "^0.12.15",
+    "@ffmpeg/util": "^0.12.2",
+    "@mediabunny/aac-encoder": "^1.61.3",
+    "mediabunny": "^1.61.3"
+  }
+}

@@ -1,0 +1,1 @@
+[{"label":"r1080-30-1min","seconds":60,"window":[1920,1080],"fps":30,"after60":true},{"label":"r1080-60-1min","seconds":60,"window":[1920,1080],"fps":60,"after60":true},{"label":"r1080-30-10min","seconds":600,"window":[1920,1080],"fps":30,"after60":true},{"label":"r1080-60-10min","seconds":600,"window":[1920,1080],"fps":60,"after60":true}]

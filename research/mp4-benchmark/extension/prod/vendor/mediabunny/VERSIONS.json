@@ -1,0 +1,12 @@
+{
+  "mediabunny": {
+    "version": "1.61.3",
+    "license": "MPL-2.0",
+    "sha256": "d7b3a90e82158a7022729cbd4f861daf73cbb4f69d23349d2aefc9c8281cf70c"
+  },
+  "@mediabunny/aac-encoder": {
+    "version": "1.61.3",
+    "license": "MPL-2.0",
+    "sha256": "7b1a4ee3775083fc3e4b9ed6918cc5d40a340109acd476cf6d438a50bb0264ee"
+  }
+}

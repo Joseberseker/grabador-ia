@@ -1,0 +1,5 @@
+node_modules/
+extension/vendor/
+extension/inputs/
+results/*.mp4
+results/*.webm
