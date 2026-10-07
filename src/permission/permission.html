@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Permiso de micrófono — Grabador de pantalla</title>
+    <link rel="icon" href="../../icons/icon32.png" />
+    <link rel="stylesheet" href="../shared/styles/base.css" />
+    <link rel="stylesheet" href="permission.css" />
+  </head>
+  <body>
+    <main class="permission">
+      <h1>🎙️ Activar el micrófono</h1>
+      <p>
+        Has activado el micrófono en el Grabador de pantalla. Chrome te pedirá permiso
+        ahora, en el aviso de la parte superior.
+      </p>
+      <ul>
+        <li>Solo se usará <strong>mientras grabas</strong> y con la opción activada.</li>
+        <li>El audio se procesa en tu equipo y nunca se envía a ningún servidor.</li>
+        <li>Puedes desactivarlo cuando quieras desde el icono de la extensión.</li>
+      </ul>
+
+      <p class="message" id="message" role="status" data-type="info">Esperando tu respuesta…</p>
+
+      <div class="actions">
+        <button type="button" class="btn btn-primary" id="retry-btn" hidden>Volver a pedir permiso</button>
+        <button type="button" class="btn btn-secondary" id="settings-btn" hidden>Abrir ajustes del micrófono</button>
+        <button type="button" class="btn btn-secondary" id="close-btn">Cerrar</button>
+      </div>
+    </main>
+    <script type="module" src="permission.js"></script>
+  </body>
+</html>

@@ -1,0 +1,111 @@
+body {
+  background: var(--surface);
+}
+
+.controller {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-height: 100vh;
+  padding: 10px 10px 4px;
+}
+
+.widget {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--bg);
+}
+
+.widget-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.widget .timer {
+  font-size: 26px;
+}
+
+.widget .message {
+  padding: 6px 8px;
+  font-size: 12px;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.actions .btn {
+  flex: 1;
+}
+
+.pip-placeholder {
+  margin: 0;
+  padding: 16px 8px;
+  text-align: center;
+  color: var(--text-muted);
+}
+
+.controller-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+/* Versión Picture-in-Picture: ventana muy pequeña, siempre encima. */
+body.pip {
+  background: var(--bg);
+}
+
+body.pip .widget {
+  min-height: 100vh;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 0;
+}
+
+body.pip .widget .timer {
+  font-size: 22px;
+}
+
+body.pip .btn {
+  padding: 6px 10px;
+}
+
+body.pip .message {
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+body.pip .live {
+  font-size: 12px;
+}
+
+/* «Grabación lista» compacta: la ventana del controlador es pequeña */
+.widget .result {
+  display: grid;
+  grid-template-columns: 112px minmax(0, 1fr);
+  align-items: center;
+  gap: 6px 10px;
+}
+.widget .result-thumb {
+  width: 112px;
+}
+.widget .result-actions {
+  grid-column: 1 / -1;
+}
+.widget .result-actions .btn {
+  padding: 6px 8px;
+  font-size: 13px;
+}
+[data-status='finished'] .widget-top .timer {
+  font-size: 20px;
+}

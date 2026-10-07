@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Grabador de pantalla</title>
+    <link rel="stylesheet" href="../shared/styles/base.css" />
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="popup" id="controls">
+      <header class="popup-header">
+        <h1>Grabador de pantalla</h1>
+        <span class="status-pill" data-role="status" data-status="idle">
+          <span data-role="status-icon" aria-hidden="true">●</span>
+          <span data-role="status-label">LISTO</span>
+        </span>
+      </header>
+
+      <div class="timer" data-role="timer" role="timer" aria-live="off">00:00</div>
+
+      <!-- Durante la grabación -->
+      <div class="live" data-role="live" hidden>
+        <div class="audio-row"><span>🎙️ Micrófono</span><span class="audio-state" data-role="mic-status"></span></div>
+        <div class="audio-row"><span>🔊 Audio pestaña</span><span class="audio-state" data-role="tab-status"></span></div>
+        <div class="meter" data-role="meter" role="meter" aria-label="Nivel del micrófono"
+          aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" hidden>
+          <span aria-hidden="true">🎤</span>
+          <div class="meter-track"><div class="meter-fill" data-role="meter-fill"></div></div>
+        </div>
+        <div class="video-info" data-role="video-info"></div>
+      </div>
+
+      <div class="export" data-role="export" role="progressbar" aria-label="Conversión a MP4"
+        aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" hidden>
+        <div class="export-track"><div class="export-fill" data-role="export-fill"></div></div>
+        <div class="export-info" data-role="export-info"></div>
+      </div>
+
+      <div class="result" data-role="result" hidden>
+        <img class="result-thumb" data-role="result-thumb" alt="" width="320" height="180" />
+        <div class="result-info">
+          <strong class="result-title" data-role="result-title"></strong>
+          <span class="result-meta" data-role="result-meta"></span>
+        </div>
+        <div class="result-actions">
+          <button type="button" class="btn btn-primary" data-role="view-recording">▶ Ver grabación</button>
+          <button type="button" class="btn btn-secondary" data-role="download-recording">⬇ Descargar</button>
+          <button type="button" class="btn btn-link" data-role="open-library">Mis grabaciones</button>
+        </div>
+      </div>
+
+      <!-- Antes de grabar: se aplican a la siguiente grabación -->
+      <section class="settings" id="settings" aria-label="Ajustes de grabación">
+        <div class="setting">
+          <span id="mic-label">🎙️ Micrófono</span>
+          <button type="button" class="switch" id="mic-toggle" role="switch" aria-checked="false"
+            aria-labelledby="mic-label"></button>
+        </div>
+        <p class="setting-hint" id="mic-hint" hidden></p>
+        <div class="setting">
+          <span id="tab-label">🔊 Audio de la pestaña</span>
+          <button type="button" class="switch" id="tab-toggle" role="switch" aria-checked="true"
+            aria-labelledby="tab-label"></button>
+        </div>
+        <label class="setting">
+          <span>Resolución</span>
+          <select id="resolution">
+            <option value="auto">Automática</option>
+            <option value="720p">720p</option>
+            <option value="1080p">1080p</option>
+          </select>
+        </label>
+        <label class="setting">
+          <span>FPS</span>
+          <select id="fps">
+            <option value="30">30</option>
+            <option value="60">60</option>
+          </select>
+        </label>
+        <label class="setting">
+          <span>Calidad</span>
+          <select id="quality">
+            <option value="auto">Automática</option>
+            <option value="high">Alta</option>
+            <option value="max">Máxima</option>
+          </select>
+        </label>
+        <label class="setting">
+          <span>Formato</span>
+          <select id="export-format">
+            <option value="mp4">MP4 (H.264 + AAC)</option>
+            <option value="webm">WebM (original)</option>
+          </select>
+        </label>
+        <div class="setting">
+          <span id="autodl-label">⬇ Descargar al terminar</span>
+          <button type="button" class="switch" id="autodl-toggle" role="switch" aria-checked="true"
+            aria-labelledby="autodl-label"></button>
+        </div>
+        <label class="setting">
+          <span>Cuenta regresiva</span>
+          <select id="countdown">
+            <option value="0">Sin cuenta regresiva</option>
+            <option value="3">3 segundos</option>
+          </select>
+        </label>
+      </section>
+
+      <div class="actions">
+        <button type="button" class="btn btn-primary" data-role="start">● Iniciar grabación</button>
+        <button type="button" class="btn btn-secondary" data-role="cancel" hidden>Cancelar</button>
+        <button type="button" class="btn btn-secondary" data-role="pause" hidden>⏸ Pausar</button>
+        <button type="button" class="btn btn-primary" data-role="resume" hidden>▶ Reanudar</button>
+        <button type="button" class="btn btn-danger" data-role="stop" hidden>■ Detener</button>
+        <button type="button" class="btn btn-secondary" data-role="cancel-export" hidden>Cancelar</button>
+        <button type="button" class="btn btn-primary" data-role="retry-export" hidden>↻ Reintentar MP4</button>
+        <button type="button" class="btn btn-secondary" data-role="download-webm" hidden>⬇ WebM</button>
+        <button type="button" class="btn btn-secondary" data-role="discard" hidden>Descartar</button>
+      </div>
+
+      <p class="message" data-role="message" role="status" hidden></p>
+
+      <button type="button" class="btn btn-secondary" id="library-btn">📁 Mis grabaciones</button>
+
+      <button type="button" class="btn btn-link" id="show-controller" hidden>
+        Mostrar controlador de grabación
+      </button>
+
+      <footer class="shortcuts" id="shortcuts" hidden></footer>
+    </main>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>

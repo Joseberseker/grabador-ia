@@ -1,0 +1,101 @@
+body {
+  width: 310px;
+  overflow-x: hidden;
+}
+
+.popup {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 12px;
+  padding: 14px 16px 12px;
+}
+
+.popup-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.popup-header h1 {
+  min-width: 0;
+  margin: 0;
+  overflow: hidden;
+  font-size: 14px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.popup-header .status-pill {
+  flex-shrink: 0;
+}
+
+/* En reposo el temporizador no aporta nada, y al terminar la duración ya está en la tarjeta. */
+.popup[data-status='idle'] .timer,
+.popup[data-status='finished'] .timer {
+  display: none;
+}
+
+.popup .timer {
+  text-align: center;
+  padding: 10px 0;
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.actions .btn {
+  flex: 1;
+}
+
+.shortcuts .btn-link {
+  align-self: flex-start;
+  padding: 2px 0;
+  font-size: 12px;
+}
+
+.shortcuts {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 12px;
+}
+
+.settings {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: 13px;
+}
+
+.setting select {
+  max-width: 175px;
+}
+
+.setting {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.setting-hint {
+  margin: -4px 0 0;
+  color: var(--text-muted);
+  font-size: 11px;
+}
+
+.popup .live {
+  padding: 0 2px;
+}
