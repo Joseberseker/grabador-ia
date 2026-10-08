@@ -1,0 +1,148 @@
+{
+ "model": "onnx-community/whisper-base",
+ "dtype": "q8",
+ "device": "wasm",
+ "audioSeconds": 60,
+ "totalSeconds": 264.777125,
+ "loadMs": 5676,
+ "inferMs": 24181,
+ "rtf": 0.4,
+ "threads": 1,
+ "coi": false,
+ "files": [
+  "config.json 0 MB",
+  "generation_config.json 0 MB",
+  "preprocessor_config.json 0 MB",
+  "tokenizer_config.json 0 MB",
+  "tokenizer.json 2 MB",
+  "onnx/encoder_model_quantized.onnx 23 MB",
+  "onnx/decoder_model_merged_quantized.onnx 54 MB"
+ ],
+ "text": " Esta es la página de Judit Dreyres, compositora y cantante mexicana. Judit Dreyres Hernández, ciudad madero, tamalipas, 22 de marzo de 1924, 27 de diciembre de 1988. Fue una compositora escritora periodista y cantante mexicana. Luego de una breve carrera comercial se adentro en el canto y la composición de movimientos sociales de izquierda, así como en su documentación, convertiéndose en pionera en su país de la canción de protesto. Biografía. Iniciosos carrera artística en Ciudad Madero, en donde cantaba para ganarse la vida. Su padre le regaló una guitarra a los 14 años, ya en la ciudad de México, a los 16 años, formó junto a su esposo el dueto al arcón a la ocupación con la que actuaría e incluso llegaría a presentarse en los Estados Unidos. Separa de la vida al arcón, Reyes conoció a Tatanacho que le introdujo en la fundación de la sociedad de autores y compositorios.",
+ "chunks": [
+  {
+   "t": [
+    0,
+    15
+   ],
+   "text": " Esta es la página de Judit Dreyres, compositora y cantante mexicana. Judit Dreyres Hernández, ciudad madero, tamalipas, 22 de marzo de 1924, 27 de diciembre de 1988."
+  },
+  {
+   "t": [
+    15,
+    29.22
+   ],
+   "text": " Fue una compositora escritora periodista y cantante mexicana. Luego de una breve carrera comercial se adentro en el canto y la composición de movimientos sociales de izquierda, así como en su documentación, convertiéndose en pionera en su país"
+  },
+  {
+   "t": [
+    29.22,
+    31.64
+   ],
+   "text": " de la canción de protesto."
+  },
+  {
+   "t": [
+    31.64,
+    33.46
+   ],
+   "text": " Biografía."
+  },
+  {
+   "t": [
+    33.46,
+    38.46
+   ],
+   "text": " Iniciosos carrera artística en Ciudad Madero, en donde cantaba para ganarse la vida."
+  },
+  {
+   "t": [
+    38.46,
+    44.9
+   ],
+   "text": " Su padre le regaló una guitarra a los 14 años, ya en la ciudad de México, a los 16 años,"
+  }
+ ],
+ "chunkCount": 10,
+ "ramBaseMb": 1085,
+ "ramPeakMb": 1726,
+ "ramDeltaMb": 641
+}
+{
+ "model": "onnx-community/whisper-small",
+ "dtype": "q8",
+ "device": "wasm",
+ "audioSeconds": 60,
+ "totalSeconds": 264.777125,
+ "loadMs": 13009,
+ "inferMs": 71115,
+ "rtf": 1.19,
+ "threads": 1,
+ "coi": false,
+ "files": [
+  "config.json 0 MB",
+  "preprocessor_config.json 0 MB",
+  "generation_config.json 0 MB",
+  "tokenizer_config.json 0 MB",
+  "tokenizer.json 2 MB",
+  "onnx/encoder_model_quantized.onnx 92 MB",
+  "onnx/encoder_model_quantized.onnx 92 MB",
+  "onnx/encoder_model_quantized.onnx 92 MB",
+  "onnx/encoder_model_quantized.onnx 92 MB",
+  "onnx/encoder_model_quantized.onnx 92 MB",
+  "onnx/encoder_model_quantized.onnx 92 MB",
+  "onnx/decoder_model_merged_quantized.onnx 157 MB",
+  "onnx/decoder_model_merged_quantized.onnx 157 MB",
+  "onnx/decoder_model_merged_quantized.onnx 157 MB",
+  "onnx/decoder_model_merged_quantized.onnx 157 MB"
+ ],
+ "text": " Esta es la página de Judith Reyes, compositora y cantante mexicana. Judith Reyes Hernández, ciudad madero, Tamaulipas, 22 de marzo de 1924, 27 de diciembre de 1988. Fue una compositora, escritora, periodista y cantante mexicana. Luego de una breve carrera comercial, se adentró en el canto y la composición de movimientos sociales de izquierda, así como en su documentación, convirtiéndose en pionera en su país de la canción de protesta. Biografía Inició su carrera artística en Ciudad Madero, en donde cantaba para ganarse la vida. Su padre le regaló una guitarra a los 14 años. Ya en la Ciudad de México, a los 16 años, formó junto a su esposo el dueto Alarcón, agrupación con la que actuaría e incluso llegaría a presentarse en los Estados Unidos. Separada de David Alarcón, Gries conoció a Tata Nacho, quien la introdujo en la Fundación de la Sociedad de Autores y Compositores.",
+ "chunks": [
+  {
+   "t": [
+    0,
+    7.24
+   ],
+   "text": " Esta es la página de Judith Reyes, compositora y cantante mexicana. Judith Reyes Hernández,"
+  },
+  {
+   "t": [
+    7.24,
+    16.26
+   ],
+   "text": " ciudad madero, Tamaulipas, 22 de marzo de 1924, 27 de diciembre de 1988. Fue una compositora,"
+  },
+  {
+   "t": [
+    16.26,
+    22.56
+   ],
+   "text": " escritora, periodista y cantante mexicana. Luego de una breve carrera comercial, se adentró en el"
+  },
+  {
+   "t": [
+    22.56,
+    29.46
+   ],
+   "text": " canto y la composición de movimientos sociales de izquierda, así como en su documentación, convirtiéndose en pionera en su país de la"
+  },
+  {
+   "t": [
+    29.46,
+    32.96
+   ],
+   "text": " canción de protesta."
+  },
+  {
+   "t": [
+    32.96,
+    36.76
+   ],
+   "text": " Biografía Inició su carrera artística en Ciudad Madero,"
+  }
+ ],
+ "chunkCount": 12,
+ "ramBaseMb": 1569,
+ "ramPeakMb": 2467,
+ "ramDeltaMb": 898
+}

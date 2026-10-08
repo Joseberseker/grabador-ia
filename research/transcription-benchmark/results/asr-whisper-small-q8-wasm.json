@@ -1,0 +1,70 @@
+{
+  "model": "onnx-community/whisper-small",
+  "dtype": "q8",
+  "device": "wasm",
+  "audioSeconds": 60,
+  "totalSeconds": 264.777125,
+  "loadMs": 1801,
+  "inferMs": 39873,
+  "rtf": 0.66,
+  "threads": 4,
+  "coi": true,
+  "files": [
+    "config.json 0 MB",
+    "preprocessor_config.json 0 MB",
+    "tokenizer.json 2 MB",
+    "tokenizer_config.json 0 MB",
+    "onnx/encoder_model_quantized.onnx 92 MB",
+    "onnx/encoder_model_quantized.onnx 92 MB",
+    "generation_config.json 0 MB",
+    "onnx/decoder_model_merged_quantized.onnx 157 MB"
+  ],
+  "text": " Esta es la página de Judith Reyes, compositora y cantante mexicana. Judith Reyes Hernández, ciudad madero, Tamaulipas, 22 de marzo de 1924, 27 de diciembre de 1988. Fue una compositora, escritora, periodista y cantante mexicana. Luego de una breve carrera comercial, se adentró en el canto y la composición de movimientos sociales de izquierda, así como en su documentación, convirtiéndose en pionera en su país de la canción de protesta. Biografía Inició su carrera artística en Ciudad Madero, en donde cantaba para ganarse la vida. Su padre le regaló una guitarra a los 14 años. Ya en la Ciudad de México, a los 16 años, formó junto a su esposo el dueto Alarcón, agrupación con la que actuaría e incluso llegaría a presentarse en los Estados Unidos. Separada de David Alarcón, Gries conoció a Tata Nacho, quien la introdujo en la Fundación de la Sociedad de Autores y Compositores.",
+  "chunks": [
+    {
+      "t": [
+        0,
+        7.24
+      ],
+      "text": " Esta es la página de Judith Reyes, compositora y cantante mexicana. Judith Reyes Hernández,"
+    },
+    {
+      "t": [
+        7.24,
+        16.26
+      ],
+      "text": " ciudad madero, Tamaulipas, 22 de marzo de 1924, 27 de diciembre de 1988. Fue una compositora,"
+    },
+    {
+      "t": [
+        16.26,
+        22.56
+      ],
+      "text": " escritora, periodista y cantante mexicana. Luego de una breve carrera comercial, se adentró en el"
+    },
+    {
+      "t": [
+        22.56,
+        29.46
+      ],
+      "text": " canto y la composición de movimientos sociales de izquierda, así como en su documentación, convirtiéndose en pionera en su país de la"
+    },
+    {
+      "t": [
+        29.46,
+        32.96
+      ],
+      "text": " canción de protesta."
+    },
+    {
+      "t": [
+        32.96,
+        36.76
+      ],
+      "text": " Biografía Inició su carrera artística en Ciudad Madero,"
+    }
+  ],
+  "chunkCount": 12,
+  "ramBaseMb": 1119,
+  "ramPeakMb": 2226
+}

@@ -1,0 +1,69 @@
+{
+  "model": "onnx-community/whisper-tiny",
+  "dtype": "q8",
+  "device": "wasm",
+  "audioSeconds": 60,
+  "totalSeconds": 264.777125,
+  "loadMs": 3085,
+  "inferMs": 21907,
+  "rtf": 0.37,
+  "threads": 1,
+  "coi": false,
+  "files": [
+    "config.json 0 MB",
+    "preprocessor_config.json 0 MB",
+    "tokenizer.json 2 MB",
+    "tokenizer_config.json 0 MB",
+    "onnx/encoder_model_quantized.onnx 10 MB",
+    "generation_config.json 0 MB",
+    "onnx/decoder_model_merged_quantized.onnx 31 MB"
+  ],
+  "text": " Esta es la página de Judicial Regres, como si todos los Comro en el canto de la composición de movimiento sociales de izquierda, así como en su documentación, convertiendo en la primera en su país de la canción de protesta. Biografía. Inicio su calor de la artística ha sido admirado en donde he cantado para ganarse la vida. Su padre le agradecadrón agitar a los 14 años. Yo en la ciudad de México, a los 16 años, formó un proceso esposo el dueño de la la información con la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad",
+  "chunks": [
+    {
+      "t": [
+        0,
+        29.44
+      ],
+      "text": " Esta es la página de Judicial Regres, como si todos los Comro en el canto de la composición de movimiento sociales de izquierda, así como en su documentación, convertiendo en la primera en su país de la"
+    },
+    {
+      "t": [
+        29.44,
+        31.76
+      ],
+      "text": " canción de protesta."
+    },
+    {
+      "t": [
+        31.76,
+        33.76
+      ],
+      "text": " Biografía."
+    },
+    {
+      "t": [
+        33.76,
+        39.28
+      ],
+      "text": " Inicio su calor de la artística ha sido admirado en donde he cantado para ganarse la vida."
+    },
+    {
+      "t": [
+        39.28,
+        41.64
+      ],
+      "text": " Su padre le agradecadrón agitar a los 14 años."
+    },
+    {
+      "t": [
+        41.64,
+        null
+      ],
+      "text": " Yo en la ciudad de México, a los 16 años, formó un proceso esposo el dueño de la la información con la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de la Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad de Universidad"
+    }
+  ],
+  "chunkCount": 6,
+  "ramBaseMb": 1286,
+  "ramPeakMb": 1854
+}

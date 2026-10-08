@@ -1,0 +1,1 @@
+{"name":"transcription-benchmark","private":true,"type":"module","description":"Fase 6: prototipo AISLADO de transcripción local (no forma parte de la extensión).","dependencies":{"@huggingface/transformers":"^4.3.1"}}
