@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mis grabaciones</title>
+    <link rel="icon" href="../../icons/icon32.png" />
+    <link rel="stylesheet" href="../shared/styles/base.css" />
+    <link rel="stylesheet" href="library.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <h1><a href="#/" class="home-link">Mis grabaciones</a></h1>
+      <span class="count" id="count"></span>
+      <button type="button" class="btn btn-danger" id="new-recording">🔴 Nueva grabación</button>
+    </header>
+
+    <p class="message" id="message" role="status" hidden></p>
+
+    <!-- Lista -->
+    <main id="list-view">
+      <section class="empty" id="empty" hidden>
+        <h2>No tienes grabaciones todavía</h2>
+        <p>Graba tu primera pantalla y aparecerá aquí.</p>
+        <button type="button" class="btn btn-danger" data-action="new">🔴 Nueva grabación</button>
+      </section>
+      <div id="groups"></div>
+    </main>
+
+    <!-- Preview -->
+    <main id="detail-view" hidden>
+      <a href="#/" class="back">← Volver a mis grabaciones</a>
+      <div class="detail">
+        <div class="detail-main">
+          <video id="player" controls playsinline preload="metadata"></video>
+          <section class="detail-info">
+            <h2 id="detail-title"></h2>
+            <dl id="detail-meta"></dl>
+            <div class="detail-actions">
+              <button type="button" class="btn btn-primary" id="detail-download">⬇ Descargar</button>
+              <button type="button" class="btn btn-secondary" id="detail-rename">✎ Renombrar</button>
+              <button type="button" class="btn btn-secondary btn-danger-outline" id="detail-delete">🗑 Eliminar</button>
+            </div>
+          </section>
+        </div>
+
+        <!-- Transcripción (fase 6): opcional, solo a petición del usuario, 100 % local -->
+        <aside class="transcript" id="transcript" aria-labelledby="transcript-title">
+          <header class="transcript-head">
+            <h2 id="transcript-title">Transcripción</h2>
+            <span class="badge" id="tr-badge" hidden></span>
+          </header>
+
+          <section id="tr-start" hidden>
+            <p class="muted" id="tr-start-note">Convierte el audio en texto con marcas de tiempo. Se procesa en tu equipo: el audio nunca sale de tu ordenador.</p>
+            <fieldset class="tr-models" id="tr-models">
+              <legend>Modelo</legend>
+            </fieldset>
+            <p class="tr-warning" id="tr-start-warning" hidden></p>
+            <div class="tr-row">
+              <button type="button" class="btn btn-primary" id="tr-start-btn">📝 Transcribir</button>
+              <button type="button" class="btn btn-link" id="tr-start-back" hidden>Cancelar</button>
+            </div>
+          </section>
+
+          <section id="tr-progress" hidden>
+            <p class="tr-progress-label" id="tr-progress-label"></p>
+            <progress id="tr-progress-bar" max="1"></progress>
+            <p class="muted small" id="tr-progress-detail"></p>
+            <div class="tr-row">
+              <button type="button" class="btn btn-secondary" id="tr-cancel">Cancelar transcripción</button>
+            </div>
+          </section>
+
+          <section id="tr-interrupted" hidden>
+            <p id="tr-interrupted-text"></p>
+            <div class="tr-row">
+              <button type="button" class="btn btn-primary" id="tr-resume">▶ Reanudar</button>
+              <button type="button" class="btn btn-secondary" id="tr-discard">Descartar</button>
+            </div>
+          </section>
+
+          <section id="tr-error" hidden>
+            <p class="tr-error-text" id="tr-error-text" role="alert"></p>
+            <div class="tr-row">
+              <button type="button" class="btn btn-primary" id="tr-retry">Reintentar</button>
+            </div>
+          </section>
+
+          <section id="tr-done" hidden>
+            <div class="tr-toolbar">
+              <button type="button" class="btn btn-secondary btn-sm" id="tr-copy">📋 Copiar</button>
+              <button type="button" class="btn btn-secondary btn-sm" id="tr-download">⬇ .txt</button>
+              <label class="tr-check"><input type="checkbox" id="tr-timestamps" checked /> Marcas de tiempo</label>
+            </div>
+            <p class="muted small" id="tr-done-meta"></p>
+          </section>
+
+          <p class="muted" id="tr-empty" hidden>No se detectó voz en esta grabación.</p>
+          <ol class="tr-segments" id="tr-segments" aria-label="Texto de la grabación"></ol>
+
+          <footer class="tr-footer" id="tr-footer" hidden>
+            <button type="button" class="btn btn-link btn-sm" id="tr-redo">↻ Volver a transcribir</button>
+            <button type="button" class="btn btn-link btn-sm" id="tr-delete-models">Eliminar modelos descargados</button>
+          </footer>
+        </aside>
+      </div>
+    </main>
+
+    <!-- Diálogos -->
+    <dialog id="rename-dialog">
+      <form method="dialog" id="rename-form">
+        <h3>Renombrar grabación</h3>
+        <input type="text" id="rename-input" maxlength="200" autocomplete="off" aria-describedby="rename-error" />
+        <p class="field-error" id="rename-error" role="alert" hidden></p>
+        <div class="dialog-actions">
+          <button type="button" class="btn btn-secondary" value="cancel" id="rename-cancel">Cancelar</button>
+          <button type="submit" class="btn btn-primary" value="ok">Guardar</button>
+        </div>
+      </form>
+    </dialog>
+
+    <dialog id="delete-dialog">
+      <form method="dialog">
+        <h3>¿Eliminar esta grabación?</h3>
+        <p id="delete-name"></p>
+        <p class="muted">Esta acción no se puede deshacer.</p>
+        <div class="dialog-actions">
+          <button type="submit" class="btn btn-secondary" value="cancel">Cancelar</button>
+          <button type="submit" class="btn btn-danger" value="delete" id="delete-confirm">Eliminar</button>
+        </div>
+      </form>
+    </dialog>
+
+    <dialog id="model-dialog">
+      <form method="dialog">
+        <h3>Descargar el modelo de transcripción</h3>
+        <p>La primera vez hay que descargar el modelo <strong id="model-dialog-name"></strong> (<span id="model-dialog-size"></span>) desde Hugging Face. Queda guardado en Chrome y no se vuelve a descargar.</p>
+        <p>La transcripción se hace <strong>en este equipo</strong>: el audio de tus grabaciones nunca se envía a ningún servidor.</p>
+        <p class="muted small" id="model-dialog-reqs"></p>
+        <div class="dialog-actions">
+          <button type="submit" class="btn btn-secondary" value="cancel">Cancelar</button>
+          <button type="submit" class="btn btn-primary" value="download" id="model-dialog-confirm">Descargar y transcribir</button>
+        </div>
+      </form>
+    </dialog>
+
+    <template id="card-template">
+      <article class="card">
+        <a class="card-thumb">
+          <img alt="" width="320" height="180" loading="lazy" />
+          <span class="play" aria-hidden="true">▶</span>
+          <span class="duration"></span>
+        </a>
+        <div class="card-body">
+          <h3 class="card-title"></h3>
+          <p class="card-meta"></p>
+          <p class="card-badge" hidden></p>
+        </div>
+        <div class="card-actions">
+          <button type="button" class="btn btn-link" data-action="download" title="Descargar">⬇</button>
+          <button type="button" class="btn btn-link" data-action="rename" title="Renombrar">✎</button>
+          <button type="button" class="btn btn-link" data-action="delete" title="Eliminar">🗑</button>
+        </div>
+      </article>
+    </template>
+
+    <script type="module" src="library.js"></script>
+  </body>
+</html>
