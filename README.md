@@ -434,3 +434,7 @@ El selector de Chrome va **primero**: la captura necesita que elijas una fuente 
 - No se puede elegir el micrófono: se usa el predeterminado.
 - La cuenta regresiva se ejecuta en un documento oculto: puede retrasarse hasta unos 0,5–1 s.
 - Si se cancela el diálogo «Guardar como» (cuando Chrome lo tiene activado), no se pierde nada: aparecen las opciones Reintentar MP4 / WebM / Descartar.
+
+## Licencia
+
+Código propio bajo licencia [MIT](LICENSE). Las dependencias vendorizadas en `src/vendor/` tienen sus propias licencias; ver [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
