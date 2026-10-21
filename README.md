@@ -27,67 +27,35 @@ Guarda las imágenes en [`docs/screenshots/`](docs/screenshots/) con los nombres
 
 ### Popup y ajustes
 
-> 📸 **Captura pendiente — popup de la extensión con los ajustes (micrófono, resolución, FPS, calidad, formato, cuenta regresiva)**
-> Guárdala como `docs/screenshots/01-popup-ajustes.png` y reemplaza este bloque por:
-> `![Popup y ajustes](docs/screenshots/01-popup-ajustes.png)`
-
-<!-- ![Popup y ajustes](docs/screenshots/01-popup-ajustes.png) -->
+![Popup y ajustes](docs/screenshots/01-popup-ajustes.jpeg)
 
 ### Selector de fuente
 
-> 📸 **Captura pendiente — selector nativo de Chrome para elegir pestaña, ventana o pantalla**
-> Guárdala como `docs/screenshots/02-selector-fuente.png` y reemplaza este bloque por:
-> `![Selector de fuente](docs/screenshots/02-selector-fuente.png)`
-
-<!-- ![Selector de fuente](docs/screenshots/02-selector-fuente.png) -->
+![Selector de fuente](docs/screenshots/02-selector-fuente.jpeg)
 
 ### Controlador de grabación
 
-> 📸 **Captura pendiente — controlador flotante grabando, con duración, nivel del micrófono y botones Pausar / Detener**
-> Guárdala como `docs/screenshots/03-controlador-grabando.png` y reemplaza este bloque por:
-> `![Controlador grabando](docs/screenshots/03-controlador-grabando.png)`
-
-<!-- ![Controlador grabando](docs/screenshots/03-controlador-grabando.png) -->
+![Controlador grabando](docs/screenshots/03-controlador-grabando.jpeg)
 
 ### Cuenta regresiva y pausa
 
-> 📸 **Captura pendiente — cuenta regresiva 3 → 2 → 1 y/o grabación en pausa**
-> Guárdala como `docs/screenshots/04-cuenta-regresiva-pausa.png` y reemplaza este bloque por:
-> `![Cuenta regresiva y pausa](docs/screenshots/04-cuenta-regresiva-pausa.png)`
-
-<!-- ![Cuenta regresiva y pausa](docs/screenshots/04-cuenta-regresiva-pausa.png) -->
+![Cuenta regresiva y pausa](docs/screenshots/04-cuenta-regresiva-pausa.jpeg)
 
 ### Conversión a MP4
 
-> 📸 **Captura pendiente — progreso de conversión a MP4 (porcentaje, tiempo restante y botón Cancelar)**
-> Guárdala como `docs/screenshots/05-conversion-mp4.png` y reemplaza este bloque por:
-> `![Conversión a MP4](docs/screenshots/05-conversion-mp4.png)`
-
-<!-- ![Conversión a MP4](docs/screenshots/05-conversion-mp4.png) -->
+![Conversión a MP4](docs/screenshots/05-conversion-mp4.jpeg)
 
 ### Grabación lista
 
-> 📸 **Captura pendiente — pantalla «Grabación lista» con miniatura y botones Ver / Descargar / Mis grabaciones**
-> Guárdala como `docs/screenshots/06-grabacion-lista.png` y reemplaza este bloque por:
-> `![Grabación lista](docs/screenshots/06-grabacion-lista.png)`
-
-<!-- ![Grabación lista](docs/screenshots/06-grabacion-lista.png) -->
+![Grabación lista](docs/screenshots/06-grabacion-lista.jpeg)
 
 ### Biblioteca «Mis grabaciones»
 
-> 📸 **Captura pendiente — biblioteca con las grabaciones agrupadas por día y el preview**
-> Guárdala como `docs/screenshots/07-biblioteca.png` y reemplaza este bloque por:
-> `![Biblioteca](docs/screenshots/07-biblioteca.png)`
-
-<!-- ![Biblioteca](docs/screenshots/07-biblioteca.png) -->
+![Biblioteca](docs/screenshots/07-biblioteca.png)
 
 ### Transcripción
 
-> 📸 **Captura pendiente — panel de transcripción junto al vídeo (modelo, progreso, texto con minutos, Copiar y .txt)**
-> Guárdala como `docs/screenshots/08-transcripcion.png` y reemplaza este bloque por:
-> `![Transcripción](docs/screenshots/08-transcripcion.png)`
-
-<!-- ![Transcripción](docs/screenshots/08-transcripcion.png) -->
+![Transcripción](docs/screenshots/08-transcripcion.jpeg)
 
 ---
 
@@ -115,51 +83,27 @@ npm run build        # genera dist/ (solo lo necesario para ejecutar la extensi�
 npm run package      # opcional: genera release/grabador-de-pantalla-<versión>.zip
 ```
 
-> 📸 **Captura pendiente — terminal con `npm run build` terminado sin errores**
-> Guárdala como `docs/screenshots/09-build-terminal.png` y reemplaza este bloque por:
-> `![Build en la terminal](docs/screenshots/09-build-terminal.png)`
-
-<!-- ![Build en la terminal](docs/screenshots/09-build-terminal.png) -->
+![Build en la terminal](docs/screenshots/09-build-terminal.jpeg)
 
 **3. Abre la página de extensiones** — escribe `chrome://extensions` en la barra de direcciones.
 
-> 📸 **Captura pendiente — página chrome://extensions**
-> Guárdala como `docs/screenshots/10-chrome-extensions.png` y reemplaza este bloque por:
-> `![chrome://extensions](docs/screenshots/10-chrome-extensions.png)`
-
-<!-- ![chrome://extensions](docs/screenshots/10-chrome-extensions.png) -->
+![chrome://extensions](docs/screenshots/10-chrome-extensions.jpeg)
 
 **4. Activa el «Modo de desarrollador»** — interruptor en la esquina superior derecha.
 
-> 📸 **Captura pendiente — interruptor «Modo de desarrollador» activado y barra con «Cargar descomprimida»**
-> Guárdala como `docs/screenshots/11-modo-desarrollador.png` y reemplaza este bloque por:
-> `![Modo de desarrollador](docs/screenshots/11-modo-desarrollador.png)`
-
-<!-- ![Modo de desarrollador](docs/screenshots/11-modo-desarrollador.png) -->
+![Modo de desarrollador](docs/screenshots/11-modo-desarrollador.jpeg)
 
 **5. Pulsa «Cargar descomprimida»** y selecciona la carpeta **`dist/`** (también vale el ZIP de `release/` ya descomprimido).
 
-> 📸 **Captura pendiente — selector de carpetas con `dist/` seleccionada**
-> Guárdala como `docs/screenshots/12-cargar-descomprimida.png` y reemplaza este bloque por:
-> `![Cargar descomprimida](docs/screenshots/12-cargar-descomprimida.png)`
-
-<!-- ![Cargar descomprimida](docs/screenshots/12-cargar-descomprimida.png) -->
+![Cargar descomprimida](docs/screenshots/12-cargar-descomprimida.jpeg)
 
 **6. Verifica que aparece la tarjeta «Grabador de Pantalla»** (versión 0.6.0) y sin errores.
 
-> 📸 **Captura pendiente — tarjeta de la extensión instalada en chrome://extensions**
-> Guárdala como `docs/screenshots/13-tarjeta-extension.png` y reemplaza este bloque por:
-> `![Tarjeta de la extensión](docs/screenshots/13-tarjeta-extension.png)`
-
-<!-- ![Tarjeta de la extensión](docs/screenshots/13-tarjeta-extension.png) -->
+![Tarjeta de la extensión](docs/screenshots/13-tarjeta-extension.jpeg)
 
 **7. Fija la extensión en la barra** — icono de piezas de puzzle 🧩 → chincheta junto a «Grabador de Pantalla».
 
-> 📸 **Captura pendiente — menú de extensiones con la chincheta para fijar el icono**
-> Guárdala como `docs/screenshots/14-fijar-extension.png` y reemplaza este bloque por:
-> `![Fijar la extensión](docs/screenshots/14-fijar-extension.png)`
-
-<!-- ![Fijar la extensión](docs/screenshots/14-fijar-extension.png) -->
+![Fijar la extensión](docs/screenshots/14-fijar-extension.jpeg)
 
 **8. Listo.** Haz clic en el icono para abrir el popup. Si vas a usar el micrófono, Chrome pedirá el permiso la primera vez que lo actives.
 
